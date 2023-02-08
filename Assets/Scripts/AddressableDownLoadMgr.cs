@@ -41,10 +41,6 @@ public class AddressableDownLoadMgr
         var task = handle.Task;
         await task;
         onInitComplete?.Invoke(this, new EventArgs());
-        //Addressables.InitializeAsync().Completed += (obj) =>
-        //{
-        //    onInitComplete?.Invoke(this, new EventArgs());
-        //};
     }
 
     /// <summary>
