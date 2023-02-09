@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Adic;
 using Cysharp.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.ResourceManagement.ResourceProviders;
 
 namespace HiplayGame
@@ -18,6 +19,9 @@ namespace HiplayGame
         [Inject]
         IAssetLoader assetLoader;
 
+        [Inject]
+        ISceneProvider sceneProvider; // bug 无法跨场景
+
         /// <summary>
         /// 当前场景
         /// </summary>
@@ -28,8 +32,10 @@ namespace HiplayGame
         /// </summary>
         /// <param name="targetScene"></param>
         /// <returns></returns>
-        public async UniTask<SceneInstance> SwitchSceneAsync(IScene targetScene)
+        public async UniTask<SceneInstance> SwitchSceneAsync(string target)
         {
+            var targetScene = sceneProvider.GetScene(target);
+
             if (targetScene == null)
                 throw new Exception("目标场景为空，不能切换场景 " + targetScene.Name);
 
@@ -38,7 +44,9 @@ namespace HiplayGame
 
             var sceneObj = await assetLoader.LoadSceneAsync(targetScene.Location);
 
-            CurScene = targetScene;
+            sceneProvider = GameObject.Find("Context").GetComponent<ContextRoot>().containers[0].Resolve<ISceneProvider>();
+
+            CurScene = sceneProvider.GetScene(target);
 
             CurScene.OnEnter();
 
@@ -49,14 +57,14 @@ namespace HiplayGame
         /// 切换一个场景，带过渡效果
         /// </summary>
         /// <param name="targetScene"></param>
-        public async UniTask<SceneInstance> SwitchSceneAsync(IScene targetScene, ITransition transition)
-        {       
+        public async UniTask<SceneInstance> SwitchSceneAsync(string target, ITransition transition)
+        {
             if (transition == null)
-                return await SwitchSceneAsync(targetScene);
+                return await SwitchSceneAsync(target);
 
             var state = await transition.TransitionOut();
 
-            var sceneObj = await SwitchSceneAsync(targetScene);
+            var sceneObj = await SwitchSceneAsync(target);
 
             await transition.TransitionIn();
 

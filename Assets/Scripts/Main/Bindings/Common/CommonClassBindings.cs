@@ -9,9 +9,15 @@ namespace HiplayGame
         {
             container.Bind<IAssetLoader>().ToSingleton<AddressableLoader>();
             container.Bind<IUIManager>().ToSingleton<UIManager>();
-            container.Bind<IScenesManager>().ToSingleton<ScenesManager>();
+            
             container.Bind<ITransitionProvider>().ToSingleton<DefaultTransitionProvider>();
+
+
+            //container.Bind<IGameBussiness>().To<BussinessInitializeGameSceneUI>().As(nameof(BussinessInitializeGameSceneUI));
+
             container.Bind<ISceneProvider>().ToSingleton<DefaultSceneProvider>();
+
+            container.Bind<IScenesManager>().ToSingleton<ScenesManager>();
         }
     }
 }

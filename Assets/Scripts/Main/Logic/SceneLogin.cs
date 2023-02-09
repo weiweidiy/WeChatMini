@@ -1,3 +1,5 @@
+using Adic.Container;
+
 namespace HiplayGame
 {
     public class SceneLogin : BaseScene

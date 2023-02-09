@@ -1,3 +1,5 @@
+using Adic;
+
 namespace HiplayGame
 {
     public interface ISceneProvider

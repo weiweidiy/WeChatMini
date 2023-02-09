@@ -1,15 +1,30 @@
+
+using Adic.Container;
+using UnityEngine;
+
 namespace HiplayGame
 {
     public class DefaultSceneProvider : ISceneProvider
     {
+        IInjectionContainer container;
+
+        public DefaultSceneProvider(IInjectionContainer container)
+        {
+            Debug.Log("DefaultSceneProvider container :" + container.GetHashCode());
+            this.container = container;
+
+            this.container.Bind<SceneGame>().ToSelf();
+            this.container.Bind<SceneLogin>().ToSelf();
+        }
+
         public IScene GetNextScene(string currentSceneName)
         {
             switch(currentSceneName)
             {
                 case "Launcher":
-                    return new SceneLogin();
+                    return container.Resolve<SceneLogin>();
                 case "Login":
-                    return new SceneGame();
+                    return container.Resolve<SceneGame>();
                 default:
                     return null;
             }
@@ -20,12 +35,14 @@ namespace HiplayGame
             switch (sceneName)
             {
                 case "Login":
-                    return new SceneLogin();
+                    return container.Resolve<SceneLogin>();
                 case "Game":
-                    return new SceneGame();
+                    return container.Resolve<SceneGame>();
                 default:
                     return null;
             }
         }
+
+
     }
 }

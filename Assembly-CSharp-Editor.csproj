@@ -95,6 +95,8 @@
     <Compile Include="Assets\WX-WASM-SDK\Editor\MinigameAssetAnalysis\Styles.cs" />
     <Compile Include="Assets\WX-WASM-SDK\Editor\WXUpdateWindow.cs" />
     <Compile Include="Assets\WX-WASM-SDK\Editor\MinigameAssetAnalysis\SerializedPropertyFilters.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Editor\EnhancedScrollerEditor.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Editor\EnhancedScrollerCellViewEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\WX-WASM-SDK\Editor\TextureEditor\Release\System.Numerics.Vectors.xml" />

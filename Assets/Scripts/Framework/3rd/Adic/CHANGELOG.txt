@@ -3,6 +3,7 @@ Adic
 Another Dependency Injector Container
 Copyright (c) 2014-2021 André "Intentor" Martins
 http://intentor.com.br/
+https://github.com/intentor/adic
 ------------------------------------------------
 
 Version 2.27 (2021-08-08)

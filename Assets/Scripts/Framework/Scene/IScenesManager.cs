@@ -18,8 +18,8 @@ namespace HiplayGame
         /// 切换到一个场景
         /// </summary>
         /// <param name="scene"></param>
-        UniTask<SceneInstance> SwitchSceneAsync(IScene scene , ITransition transition);
+        UniTask<SceneInstance> SwitchSceneAsync(string scene , ITransition transition);
 
-        UniTask<SceneInstance> SwitchSceneAsync(IScene scene);
+        UniTask<SceneInstance> SwitchSceneAsync(string scene);
     }
 }
