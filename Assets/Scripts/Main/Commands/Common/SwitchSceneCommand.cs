@@ -1,7 +1,7 @@
 ﻿using Adic;
 using System;
 
-namespace hiplaygame
+namespace HiplayGame
 {
     public class SwitchSceneCommand : Command
     {

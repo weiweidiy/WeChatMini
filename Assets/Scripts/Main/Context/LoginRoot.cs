@@ -1,6 +1,6 @@
 using Adic;
 
-namespace hiplaygame
+namespace HiplayGame
 {
 
     public class LoginRoot : ContextRoot

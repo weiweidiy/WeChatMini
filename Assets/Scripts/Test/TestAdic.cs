@@ -12,7 +12,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace hiplaygame.test
+namespace HiplayGame.test
 {
     public class A
     {

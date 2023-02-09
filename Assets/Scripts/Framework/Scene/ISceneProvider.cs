@@ -1,4 +1,4 @@
-namespace hiplaygame
+namespace HiplayGame
 {
     public interface ISceneProvider
     {

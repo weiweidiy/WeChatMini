@@ -1,6 +1,6 @@
 using Cysharp.Threading.Tasks;
 
-namespace hiplaygame
+namespace HiplayGame
 {
     public interface ITransitionProvider
     {

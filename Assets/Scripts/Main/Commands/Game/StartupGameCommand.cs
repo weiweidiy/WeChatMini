@@ -2,7 +2,7 @@ using Adic;
 using Adic.Container;
 using UnityEngine;
 
-namespace hiplaygame
+namespace HiplayGame
 {
     public class StartupGameCommand : Command
     {
@@ -15,6 +15,7 @@ namespace hiplaygame
         {
             //assetLoader.InstantiateAsync("GameController");
 
+            Debug.Log("StartupGameCommand Execute");
 
             //根据数据创建场景
             var dataList = mapManager.CreateMaps();

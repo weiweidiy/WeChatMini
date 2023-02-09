@@ -1,9 +1,7 @@
-namespace hiplaygame
+namespace HiplayGame
 {
-    public class SceneLogin : IScene
+    public class SceneLogin : BaseScene
     {
-        public string Name => "Login";
-
-        public string Location => "Login";
+        public override string Location => "Login";
     }
 }

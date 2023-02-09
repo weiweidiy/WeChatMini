@@ -12,7 +12,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace hiplaygame
+namespace HiplayGame
 {
 
     public class StartButton : MonoBehaviour

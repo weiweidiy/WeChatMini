@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace hiplaygame
+namespace HiplayGame
 {
     public class Grid
     {

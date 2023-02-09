@@ -1,7 +1,7 @@
 using Adic;
 using Adic.Container;
 
-namespace hiplaygame
+namespace HiplayGame
 {
     public class GameCommandsBindings : IBindingsSetup
     {

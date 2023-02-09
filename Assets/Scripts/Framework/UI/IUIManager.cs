@@ -9,10 +9,12 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace hiplaygame
+namespace HiplayGame
 {
     public interface IUIManager
     {
+        void Initialize();
+
         UniTask<GameObject> OpenUIAsync(string name, Transform parent);
 
         GameObject OpenUI(string name, Transform parent);

@@ -1,6 +1,6 @@
 using Adic.Cache;
 
-namespace hiplaygame
+namespace HiplayGame
 {
     public class StaticReflectionCache
     {

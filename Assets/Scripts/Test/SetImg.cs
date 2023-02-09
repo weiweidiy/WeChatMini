@@ -1,6 +1,6 @@
 ﻿using Adic;
 using Cysharp.Threading.Tasks;
-using hiplaygame;
+using HiplayGame;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.UI;
@@ -9,8 +9,15 @@ public class SetImg : MonoBehaviour
     [Inject]
     IAssetLoader assetLoader;
 
+
+    private void Awake()
+    {
+        Debug.Log("SetImg Awake");
+    }
+
     async void Start()
     {
+        Debug.Log("SetImg start");
         //Addressables.LoadAssetAsync<Sprite>("icon").Completed += SetImg_Completed;
 
         var sprite = await assetLoader.LoadAssetAsync<Sprite>("icon");

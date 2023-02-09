@@ -1,9 +1,19 @@
-namespace hiplaygame
-{
-    public class SceneGame : IScene
-    {
-        public string Name => "Game";
+using UnityEngine;
 
-        public string Location => "Game";
+namespace HiplayGame
+{
+    public class SceneGame : BaseScene
+    {
+        public override string Location => "Game";
+
+        public override void OnEnter()
+        {
+            Debug.Log("SceneGame OnEnter");
+           
+
+
+        }
+
     }
+
 }

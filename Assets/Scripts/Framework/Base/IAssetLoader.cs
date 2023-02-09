@@ -3,9 +3,8 @@ using UnityEngine;
 using UnityEngine.ResourceManagement.ResourceProviders;
 
 
-namespace hiplaygame
+namespace HiplayGame
 {
-
 
     /// <summary>
     /// * 资源管理器

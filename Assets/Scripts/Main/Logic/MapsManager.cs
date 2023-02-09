@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Adic;
 
-namespace hiplaygame
+namespace HiplayGame
 {
     public class MapsManager
     {

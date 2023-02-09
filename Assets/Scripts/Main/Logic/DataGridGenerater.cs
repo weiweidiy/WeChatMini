@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hiplaygame
+namespace HiplayGame
 {
     /// <summary>
     /// grid数据生成器

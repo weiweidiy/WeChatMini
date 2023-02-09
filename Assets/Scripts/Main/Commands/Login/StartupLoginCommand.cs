@@ -3,7 +3,7 @@ using Adic.Container;
 using UnityEngine;
 
 
-namespace hiplaygame
+namespace HiplayGame
 {
     public class StartupLoginCommand : Command
     {

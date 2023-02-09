@@ -6,7 +6,7 @@ using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceProviders;
 
-namespace hiplaygame
+namespace HiplayGame
 {
 
     public class AddressableLoader : IAssetLoader

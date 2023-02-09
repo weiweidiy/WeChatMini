@@ -2,7 +2,7 @@ using Adic;
 using Adic.Container;
 using UnityEngine;
 
-namespace hiplaygame
+namespace HiplayGame
 {
     public class TransformBindings : IBindingsSetup
     {

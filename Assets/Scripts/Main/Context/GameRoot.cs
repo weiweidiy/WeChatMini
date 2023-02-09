@@ -9,7 +9,7 @@
 
 using Adic;
 
-namespace hiplaygame
+namespace HiplayGame
 {
     public class GameRoot : ContextRoot
     {

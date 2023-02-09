@@ -1,7 +1,7 @@
 
 
 using Cysharp.Threading.Tasks;
-using hiplaygame;
+using HiplayGame;
 using System;
 using System.Collections;
 using UnityEngine;
