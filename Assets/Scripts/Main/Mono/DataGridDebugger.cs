@@ -23,6 +23,11 @@ namespace HiplayGame
         [Inject]
         MapsManager mapManager;
 
+        private void Start()
+        {
+            this.Inject();
+        }
+
         private void OnGUI()
         {
             var data = mapManager.GetCurrentMap();

@@ -15,11 +15,13 @@ namespace HiplayGame
         {
             var container = this.AddContainer(new InjectionContainer(StaticReflectionCache.cache))
                         .RegisterExtension<CommanderContainerExtension>()
-                        //通用模块管理器绑定
-                        .SetupBindings<CommonClassBindings>()
                         .RegisterCommand<SwitchSceneCommand>();
 
-            //container.Bind<IAssetLoader>().ToSingleton<AddressableLoader>();
+            container.Bind<IAssetLoader>().ToSingleton<AddressableLoader>();
+            container.Bind<ITransitionProvider>().ToSingleton<DefaultTransitionProvider>();
+            container.Bind<ISceneProvider>().ToSingleton<DefaultSceneProvider>();
+            container.Bind<IScenesManager>().ToSingleton<ScenesManager>();
+
 
             dispatcher = container.GetCommandDispatcher();
         }

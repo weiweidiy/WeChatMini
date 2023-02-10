@@ -87,6 +87,7 @@
     <Compile Include="Assets\WX-WASM-SDK\Editor\MinigameAssetAnalysis\Analysis.cs" />
     <Compile Include="Assets\WX-WASM-SDK\Editor\ReplaceRules.cs" />
     <Compile Include="Assets\WX-WASM-SDK\Editor\MinigameAssetAnalysis\TextureWindow.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Editor\EnhancedScrollerEditor.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\ContextRoot\Editor\Util\ExecutionOrderUtils.cs" />
     <Compile Include="Assets\WX-WASM-SDK\Editor\TextureEditor\WXBundleSelectorWindow.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Types\Editor\CommandReferenceDrawer.cs" />
@@ -95,7 +96,6 @@
     <Compile Include="Assets\WX-WASM-SDK\Editor\MinigameAssetAnalysis\Styles.cs" />
     <Compile Include="Assets\WX-WASM-SDK\Editor\WXUpdateWindow.cs" />
     <Compile Include="Assets\WX-WASM-SDK\Editor\MinigameAssetAnalysis\SerializedPropertyFilters.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Editor\EnhancedScrollerEditor.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Editor\EnhancedScrollerCellViewEditor.cs" />
   </ItemGroup>
   <ItemGroup>

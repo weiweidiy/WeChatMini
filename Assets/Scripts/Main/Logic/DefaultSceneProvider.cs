@@ -13,8 +13,8 @@ namespace HiplayGame
             Debug.Log("DefaultSceneProvider container :" + container.GetHashCode());
             this.container = container;
 
-            this.container.Bind<SceneGame>().ToSelf();
-            this.container.Bind<SceneLogin>().ToSelf();
+            this.container.Bind<SceneGame>().ToSingleton();
+            this.container.Bind<SceneLogin>().ToSingleton();
         }
 
         public IScene GetNextScene(string currentSceneName)

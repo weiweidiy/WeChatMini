@@ -22,10 +22,7 @@ namespace HiplayGame
         [Inject]
         ISceneProvider sceneProvider; // bug 无法跨场景
 
-        /// <summary>
-        /// 当前场景
-        /// </summary>
-        public IScene CurScene { get; private set; }
+        IScene CurScene;
 
         /// <summary>
         /// 切换一个场景
@@ -39,7 +36,7 @@ namespace HiplayGame
             if (targetScene == null)
                 throw new Exception("目标场景为空，不能切换场景 " + targetScene.Name);
 
-            if(CurScene != null)
+            if (CurScene != null)
                 CurScene.OnExit();
 
             var sceneObj = await assetLoader.LoadSceneAsync(targetScene.Location);
@@ -48,7 +45,7 @@ namespace HiplayGame
 
             CurScene = sceneProvider.GetScene(target);
 
-            CurScene.OnEnter();
+            await CurScene.OnEnter();
 
             return sceneObj;
         }

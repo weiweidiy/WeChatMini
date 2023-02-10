@@ -22,15 +22,15 @@ namespace HiplayGame
     /// </summary>
     public class UIManager : IUIManager
     {
-        /// <summary>
-        /// 预制根节点枚举值
-        /// </summary>
-        public enum Root
-        {
-            BottomRoot,
-            MiddleRoot,
-            TopRoot
-        }
+        ///// <summary>
+        ///// 预制根节点枚举值
+        ///// </summary>
+        //public enum Root
+        //{
+        //    BottomRoot,
+        //    MiddleRoot,
+        //    TopRoot
+        //}
 
         /// <summary>
         /// 资源加载器
@@ -56,30 +56,31 @@ namespace HiplayGame
         /// <summary>
         /// 初始化管理器
         /// </summary>
+        [Inject]
         public void Initialize()
         {
             //初始化 BottomRoot
-            var bRoot = GameObject.Find(Root.BottomRoot.ToString());
+            var bRoot = GameObject.Find(IUIManager.Root.BottomRoot.ToString());
             if(bRoot == null)
-                BottomRoot = CreateRoot(Root.BottomRoot.ToString());
-            var canvas = bRoot.GetComponent<Canvas>();
+                BottomRoot = CreateRoot(IUIManager.Root.BottomRoot.ToString());
+            var canvas = BottomRoot.GetComponent<Canvas>();
             if (canvas == null)
                 throw new Exception("场景中缺少 BottomRoot 的Canvas组件");
 
             //初始化 MiddleRoot
-            var mRoot = GameObject.Find(Root.MiddleRoot.ToString());
+            var mRoot = GameObject.Find(IUIManager.Root.MiddleRoot.ToString());
             if (mRoot == null)
-                MiddleRoot = CreateRoot(Root.MiddleRoot.ToString());
-            canvas = mRoot.GetComponent<Canvas>();
+                MiddleRoot = CreateRoot(IUIManager.Root.MiddleRoot.ToString());
+            canvas = MiddleRoot.GetComponent<Canvas>();
             if (canvas == null)
                 throw new Exception("场景中缺少 MiddleRoot 的Canvas组件");
 
 
             //初始化 TopRoot
-            var tRoot = GameObject.Find(Root.TopRoot.ToString());
+            var tRoot = GameObject.Find(IUIManager.Root.TopRoot.ToString());
             if (tRoot == null)
-                TopRoot = CreateRoot(Root.TopRoot.ToString());
-            canvas = tRoot.GetComponent<Canvas>();
+                TopRoot = CreateRoot(IUIManager.Root.TopRoot.ToString());
+            canvas = TopRoot.GetComponent<Canvas>();
             if (canvas == null)
                 throw new Exception("场景中缺少 TopRoot 的Canvas组件");
 
@@ -104,7 +105,7 @@ namespace HiplayGame
         /// <param name="name"></param>
         /// <param name="root"></param>
         /// <returns></returns>
-        public GameObject OpenUI(string name, Root root)
+        public GameObject OpenUI(string name, IUIManager.Root root)
         {
             var tranRoot = GetRootTransform(root);
             return OpenUI(name, tranRoot);
@@ -130,7 +131,7 @@ namespace HiplayGame
         /// <param name="name"></param>
         /// <param name="root"></param>
         /// <returns></returns>
-        public UniTask<GameObject> OpenUIAsync(string name, Root root)
+        public UniTask<GameObject> OpenUIAsync(string name, IUIManager.Root root)
         {
             var tranRoot = GetRootTransform(root);
             return OpenUIAsync(name, tranRoot);
@@ -148,7 +149,9 @@ namespace HiplayGame
         {
             var go = new GameObject(name);
             go.AddComponent<RectTransform>();
-            go.AddComponent<Canvas>();
+            var canvas = go.AddComponent<Canvas>();
+            canvas.renderMode = RenderMode.ScreenSpaceCamera;
+            canvas.worldCamera = GameObject.FindWithTag("MainCamera")?.GetComponent<Camera>();
             var cScaler = go.AddComponent<CanvasScaler>();
             go.AddComponent<GraphicRaycaster>();
             cScaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
@@ -162,15 +165,15 @@ namespace HiplayGame
         /// </summary>
         /// <param name="root"></param>
         /// <returns></returns>
-        Transform GetRootTransform(Root root)
+        Transform GetRootTransform(IUIManager.Root root)
         {
             switch(root)
             {
-                case Root.BottomRoot:
+                case IUIManager.Root.BottomRoot:
                     return BottomRoot;
-                case Root.MiddleRoot:
+                case IUIManager.Root.MiddleRoot:
                     return MiddleRoot;
-                case Root.TopRoot:
+                case IUIManager.Root.TopRoot:
                     return TopRoot;
                 default:
                     return BottomRoot;

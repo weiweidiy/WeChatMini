@@ -13,10 +13,21 @@ namespace HiplayGame
 {
     public interface IUIManager
     {
+        public enum Root
+        {
+            BottomRoot,
+            MiddleRoot,
+            TopRoot
+        }
+
         void Initialize();
 
         UniTask<GameObject> OpenUIAsync(string name, Transform parent);
 
         GameObject OpenUI(string name, Transform parent);
+
+        GameObject OpenUI(string name, Root root);
+
+        UniTask<GameObject> OpenUIAsync(string name, Root root);
     }
 }

@@ -1,15 +1,24 @@
+using System;
+using Cysharp.Threading.Tasks;
+
 namespace HiplayGame
 {
     public interface IScene
     {
+
         string Name { get; }
 
         string Location { get; }
 
         /// <summary>
+        /// 初始化
+        /// </summary>
+        void Initialize();
+
+        /// <summary>
         /// �������� ��start)
         /// </summary>
-        void OnEnter();
+        UniTask OnEnter();
 
         /// <summary>
         /// ������ɽ���(���û�й��ɣ��򲻻����)

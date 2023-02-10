@@ -9,7 +9,7 @@ namespace HiplayGame
         public void SetupBindings(IInjectionContainer container)
         {
             //var go = GameObject.FindGameObjectWithTag("BottomUILayer");
-            container.Bind<Transform>().ToGameObjectWithTag("BottomUILayer").AsObjectName();
+            //container.Bind<Transform>().ToGameObjectWithTag("BottomUILayer").AsObjectName();
         }
     }
 

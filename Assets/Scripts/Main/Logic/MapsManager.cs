@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using Adic;
+using Adic.Container;
+using UnityEngine;
 
 namespace HiplayGame
 {
@@ -7,6 +9,7 @@ namespace HiplayGame
     {
         [Inject]
         DataGridGenerater dataGenerater;
+
 
         /// <summary>
         /// 房间列表 to do ，要用链表
@@ -26,6 +29,9 @@ namespace HiplayGame
         /// <returns></returns>
         public DataGrid GetCurrentMap()
         {
+            if (curRoom >= rooms.Count)
+                return null;
+
             return rooms[curRoom];
         }
 

@@ -1,8 +1,10 @@
+using Cysharp.Threading.Tasks;
+
 namespace HiplayGame
 {
     public interface IGameBussiness
     {
-        void Run();
+        UniTask Run();
     }
 
 }

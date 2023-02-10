@@ -17,16 +17,18 @@ namespace HiplayGame
 
         public override void SetupContainers()
         {
-            var container = this.AddContainer<InjectionContainer>()
+            var container = this.AddContainer<InjectionContainer>(/*new InjectionContainer(StaticReflectionCache.cache)*/)
               .RegisterExtension<UnityBindingContainerExtension>()
-              //通用模块管理器绑定
-              .SetupBindings<CommonClassBindings>()
-              //通用命令绑定
-              .SetupBindings<CommonCommandsBindings>()
+
               //游戏逻辑模块绑定
               .SetupBindings<GameClassBindings>()
               //游戏命令绑定
-              .SetupBindings<GameCommandsBindings>();
+              .SetupBindings<GameCommandsBindings>()
+
+              //通用模块管理器绑定
+              .SetupBindings<CommonClassBindings>()
+              //通用命令绑定
+              .SetupBindings<CommonCommandsBindings>();
 
             //获取命令分发器
             dispatcher = container.GetCommandDispatcher();

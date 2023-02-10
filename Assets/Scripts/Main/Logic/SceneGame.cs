@@ -1,28 +1,37 @@
+using System;
 using Adic;
 using Adic.Container;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace HiplayGame
 {
     public class SceneGame : BaseScene
     {
-        IInjectionContainer container;
-
-        public SceneGame(IInjectionContainer container)
-        {
-            this.container = container;
-
-            this.container.Bind<BussinessInitializeGameSceneUI>().ToSelf();
-        }
+        
+        [Inject]
+        MapsManager mapManager;
 
         public override string Location => "Game";
 
-        public override void OnEnter()
+        public override void Initialize()
         {
-            Debug.Log("SceneGame OnEnter");
+            _container.Bind<BussinessInitializeGameSceneUI>().ToSelf();
+        }
 
-            var logic = container.Resolve<BussinessInitializeGameSceneUI>();
-            logic.Run();
+        public async override UniTask OnEnter()
+        {
+            //根据数据创建场景
+            var dataList = mapManager.CreateMaps();
+            Debug.Log(" mapManager " + mapManager.GetHashCode());
+            var go = new GameObject("DataGridDebugger");
+            _container.Bind<DataGridDebugger>().ToGameObject(go).AsObjectName();
+
+
+            var logic = _container.Resolve<BussinessInitializeGameSceneUI>();
+            await logic.Run();
+
+ 
 
         }
 
