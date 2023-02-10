@@ -23,6 +23,8 @@ namespace HiplayGame
         /// <param name="parameters"></param>
         public override async void Execute(params object[] parameters)
         {
+            
+
             if (parameters.Length == 0)
                 throw new ArgumentNullException("SwitchSceneCommand 参数不能为null!，0：场景名 1：是否过度动画");
 

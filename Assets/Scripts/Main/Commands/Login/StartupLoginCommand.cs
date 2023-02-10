@@ -13,10 +13,12 @@ namespace HiplayGame
         [Inject]
         IUIManager uiManager;
 
+        [Inject]
+        LocalDataManager dataManager;
 
         public override void Execute(params object[] parameters)
         {
-            Debug.Log("StartupMenuCommand");
+            Debug.Log("StartupMenuCommand " + dataManager.GetHashCode());
 
         }
 

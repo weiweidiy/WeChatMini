@@ -10,7 +10,7 @@ namespace HiplayGame
 
         public DefaultSceneProvider(IInjectionContainer container)
         {
-            Debug.Log("DefaultSceneProvider container :" + container.GetHashCode());
+            //Debug.Log("DefaultSceneProvider container :" + container.GetHashCode());
             this.container = container;
 
             this.container.Bind<SceneGame>().ToSingleton();

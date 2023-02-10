@@ -13,6 +13,10 @@ namespace HiplayGame
 
         public override void SetupContainers()
         {
+            //var globalContainer = this.AddContainer(new InjectionContainer(StaticReflectionCache.cache), false);
+            //globalContainer.Bind<LocalDataManager>().ToSingleton();
+
+
             var container = this.AddContainer(new InjectionContainer(StaticReflectionCache.cache))
                         .RegisterExtension<CommanderContainerExtension>()
                         .RegisterCommand<SwitchSceneCommand>();
@@ -30,10 +34,10 @@ namespace HiplayGame
         {
             //∑¢ÀÕ∆Ù∂Ø√¸¡Ó
             dispatcher.Dispatch<SwitchSceneCommand>("Login");
+
+            
         }
     }
-
-
 
 }
 

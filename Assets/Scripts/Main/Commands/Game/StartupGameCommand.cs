@@ -6,13 +6,14 @@ namespace HiplayGame
 {
     public class StartupGameCommand : Command
     {
+        [Inject]
+        LocalDataManager dataManager;
 
         public override void Execute(params object[] parameters)
         {
             //assetLoader.InstantiateAsync("GameController");
 
-            Debug.Log("StartupGameCommand Execute");
-
+            Debug.Log("StartupGameCommand Execute " + dataManager.GetHashCode());
 
 
             //根据数据创建UI
