@@ -8,7 +8,7 @@ namespace HiplayGame
     public class MapsManager
     {
         [Inject]
-        DataGridGenerater dataGenerater;
+        IDataGridGenerater[] dataGenerater;
 
 
         /// <summary>
@@ -46,10 +46,11 @@ namespace HiplayGame
         /// 创建地图
         /// </summary>
         /// <returns></returns>
-        public List<DataGrid> CreateMaps()
+        public List<DataGrid> CreateMaps(int roomCount = 1)
         {
             rooms = new List<DataGrid>();
-            var data = dataGenerater.Generater(11, 11);
+
+            var data = dataGenerater[0].Generater(11, 11);
             rooms.Add(data);
             return rooms;
         }

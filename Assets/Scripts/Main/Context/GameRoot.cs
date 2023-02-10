@@ -20,8 +20,8 @@ namespace HiplayGame
             var container = this.AddContainer<InjectionContainer>(/*new InjectionContainer(StaticReflectionCache.cache)*/)
               .RegisterExtension<UnityBindingContainerExtension>()
 
-              //游戏逻辑模块绑定
-              .SetupBindings<GameClassBindings>()
+              //游戏逻辑模块绑定  游戏类要优先通用类绑定，比如 mapmanager 需要先绑定，然后scene才能注入，否则会反射一个新对象
+              .SetupBindings<GameClassBindings>()   
               //游戏命令绑定
               .SetupBindings<GameCommandsBindings>()
 

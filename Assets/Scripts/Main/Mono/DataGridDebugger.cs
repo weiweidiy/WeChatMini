@@ -25,7 +25,7 @@ namespace HiplayGame
 
         private void Start()
         {
-            this.Inject();
+            //this.Inject();
         }
 
         private void OnGUI()

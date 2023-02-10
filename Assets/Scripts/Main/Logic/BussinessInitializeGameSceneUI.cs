@@ -4,12 +4,12 @@ using UnityEngine;
 
 namespace HiplayGame
 {
-    public class BussinessInitializeGameSceneUI : IGameBussiness
+    public class BussinessInitializeGameSceneUI : BaseBussiness
     {
         [Inject]
         IUIManager uiManager;
 
-        public async UniTask Run()
+        public async override UniTask Run()
         {
             Debug.Log("BussinessInitializeGameSceneUI Run");
 

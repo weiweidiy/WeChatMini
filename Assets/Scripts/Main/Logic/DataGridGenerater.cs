@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 namespace HiplayGame
 {
     /// <summary>
-    /// gridÊı¾İÉú³ÉÆ÷
+    /// grid ç”Ÿæˆå™¨
     /// </summary>
-    public class DataGridGenerater
+    public class DataGridGenerater : IDataGridGenerater
     {
         public DataGrid Generater(int width, int height)
         {
@@ -24,7 +24,23 @@ namespace HiplayGame
             }
             return grid;
         }
+    }
 
-
+    public class DataGridGenerater2 : IDataGridGenerater
+    {
+        public DataGrid Generater(int width, int height)
+        {
+            var grid = new DataGrid(width, height);
+            for (int index = 0; index < grid.Size; index++)
+            {
+                var cellData = new CellData();
+                var pos = grid.GetPosition(index);
+                cellData.x = (int)pos.x;
+                cellData.y = (int)pos.y;
+                cellData.value = grid.IsEdge(index) ? 2 : 0;
+                grid.SetData(cellData);
+            }
+            return grid;
+        }
     }
 }

@@ -7,7 +7,9 @@ namespace HiplayGame
     {
         public void SetupBindings(IInjectionContainer container)
         {
-            container.Bind<DataGridGenerater>().ToSingleton<DataGridGenerater>();
+            container.Bind<IDataGridGenerater>().ToSingleton<DataGridGenerater>();
+            container.Bind<IDataGridGenerater>().ToSingleton<DataGridGenerater2>();
+
             container.Bind<MapsManager>().ToSingleton<MapsManager>();
             
 

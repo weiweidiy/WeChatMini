@@ -5,35 +5,30 @@ using UnityEngine;
 
 namespace HiplayGame
 {
-    public class BussinessInitializeLoginSceneUI : IGameBussiness
+    public class BussinessInitializeLoginSceneUI : BaseBussiness
     {
         [Inject]
         IUIManager uiManager;
 
-        [Inject]
-        IInjectionContainer container;
-
-        public async UniTask Run()
+        public override async UniTask Run()
         {
             Debug.Log("BussinessInitializeLoginSceneUI Run");
 
             //创建开始按钮
             var go = await uiManager.OpenUIAsync("StartButton", IUIManager.Root.BottomRoot);
-            container.Bind<StartButton>().ToGameObject(go).AsObjectName(); //attacth一个组件上去
-            var component = go.GetComponent<StartButton>();
-            Debug.Assert(component != null, "component is null");
+            _container.Bind<CommonButton>().ToGameObject(go).AsObjectName(); //attacth一个组件上去
+            var btnStart = go.GetComponent<CommonButton>();
+            Debug.Assert(btnStart != null, "component is null");
 
-            component.onClicked += Component_onClicked;
+            btnStart.onClicked += Component_onClicked;
 
             //go = await uiManager.OpenUIAsync("StartButton", IUIManager.Root.BottomRoot);
             //go.transform.position = Vector3.zero;
-   
         }
-
 
         private void Component_onClicked()
         {
-            var dispatcher = container.GetCommandDispatcher();
+            var dispatcher = _container.GetCommandDispatcher();
             dispatcher.Dispatch<SwitchSceneCommand>("Game", "SMFadeTransition");
         }
     }

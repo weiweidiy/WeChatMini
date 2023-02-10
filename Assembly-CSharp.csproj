@@ -180,7 +180,6 @@
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedCellHandleFactoryV2.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMTransitionUtils.cs" />
     <Compile Include="Assets\Scripts\Framework\UI\IUIManager.cs" />
-    <Compile Include="Assets\Scripts\Main\Logic\DataGridGenerater.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\InjectionUtil.cs" />
     <Compile Include="Assets\WX-WASM-SDK\HideLoadingPage.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Factories\CubeFactory.cs" />
@@ -202,7 +201,7 @@
     <Compile Include="Assets\Scripts\Main\Bindings\Game\GameClassBindings.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedNestCellHandleFactoryV2.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IFixedUpdatable.cs" />
-    <Compile Include="Assets\Scripts\Framework\Base\IGameBussiness.cs" />
+    <Compile Include="Assets\Scripts\Framework\Bussiness\IGameBussiness.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\PrefabBinding.cs" />
     <Compile Include="Assets\Scripts\Framework\Exception\GameFrameworkException.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ReflectionCache.cs" />
@@ -218,7 +217,6 @@
     <Compile Include="Assets\WX-WASM-SDK\WXEnv.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingDelegates.cs" />
     <Compile Include="Assets\WX-WASM-SDK\Cloud.cs" />
-    <Compile Include="Assets\Scripts\Main\Logic\DataGrid.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXInterstitialAd.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\Inject.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\ComplexEnhancedScrollerDelegateV2.cs" />
@@ -260,7 +258,6 @@
     <Compile Include="Assets\Scripts\Framework\Base\IAssetLoader.cs" />
     <Compile Include="Assets\Scripts\Framework\Scene\IScene.cs" />
     <Compile Include="Assets\Scripts\Main\Bindings\Common\CommonClassBindings.cs" />
-    <Compile Include="Assets\Scripts\Main\Mono\StartButton.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\SmallList.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\MultiCellsDemo\MultiCellDemo.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\IJsonWrapper.cs" />
@@ -301,7 +298,6 @@
     <Compile Include="Assets\WX-WASM-SDK\WXUserInfoButton.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXOpenDataContext.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommanderContainerExtension.cs" />
-    <Compile Include="Assets\Scripts\Main\Logic\Grid.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXUDPSocketManager.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\04_Prefabs\Scripts\CubeRotator.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ComplexCellView.cs" />
@@ -310,7 +306,7 @@
     <Compile Include="Assets\WX-WASM-SDK\WXCallBackHandler.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\ITransition.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBindingConditionFactory.cs" />
-    <Compile Include="Assets\Scripts\Main\Logic\PlaceHolderFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\PlaceHolderFactory.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMTetrisTransition.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Data\CubeRotationSpeed.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMTransitionState.cs" />
@@ -318,6 +314,12 @@
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\02_BindingGameObjects\Scripts\GameObjectRotator.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommanderExtension.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\IInjector.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\DataGridGenerater.cs" />
+    <Compile Include="Assets\Scripts\Framework\Map\Grid\Grid.cs" />
+    <Compile Include="Assets\Scripts\Framework\Map\Grid\DataGrid.cs" />
+    <Compile Include="Assets\Scripts\Main\Mono\CommonButton.cs" />
+    <Compile Include="Assets\Scripts\Framework\Bussiness\BaseBussiness.cs" />
+    <Compile Include="Assets\Scripts\Framework\Map\Grid\IDataGridGenerater.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\upgrading from 1.x to 2.x.txt" />
