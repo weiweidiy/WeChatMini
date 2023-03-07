@@ -36,7 +36,7 @@ namespace HiplayGame
 
         public override void Init()
         {
-            dispatcher.Dispatch<StartupGameCommand>();
+            //dispatcher.Dispatch<StartupGameCommand>();
         }
     }
 }

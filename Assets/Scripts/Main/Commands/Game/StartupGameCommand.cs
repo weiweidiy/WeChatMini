@@ -1,9 +1,11 @@
 using Adic;
 using Adic.Container;
 using UnityEngine;
+using System;
 
 namespace HiplayGame
 {
+    [Obsolete("直接在 GameScene 中写逻辑代码")]
     public class StartupGameCommand : Command
     {
         [Inject]

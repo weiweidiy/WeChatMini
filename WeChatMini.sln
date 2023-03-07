@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask", "UniTask.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Linq", "UniTask.Linq.csproj", "{6EE02D68-7E81-3CE7-4085-3B8150C08FFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{AC62257A-9232-ADF6-AD6D-51B81ABF5552}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8053D133-700E-44F9-0926-64BF574F84AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.DOTween", "UniTask.DOTween.csproj", "{F3B23538-D112-3042-40E8-A675F75E0111}"
@@ -55,6 +57,10 @@ Global
 		{6EE02D68-7E81-3CE7-4085-3B8150C08FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EE02D68-7E81-3CE7-4085-3B8150C08FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EE02D68-7E81-3CE7-4085-3B8150C08FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC62257A-9232-ADF6-AD6D-51B81ABF5552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC62257A-9232-ADF6-AD6D-51B81ABF5552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC62257A-9232-ADF6-AD6D-51B81ABF5552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC62257A-9232-ADF6-AD6D-51B81ABF5552}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8053D133-700E-44F9-0926-64BF574F84AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8053D133-700E-44F9-0926-64BF574F84AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8053D133-700E-44F9-0926-64BF574F84AD}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -30,7 +30,7 @@ namespace HiplayGame
 
         public override void Init()
         {
-            dispatcher.Dispatch<StartupLoginCommand>();
+            //dispatcher.Dispatch<StartupLoginCommand>();
         }
     }
 }
