@@ -10,16 +10,6 @@ namespace HiplayGame
         [Inject]
         IDataGridGenerater[] dataGenerater;
 
-        [Inject]
-        public IInjectionContainer _container;
-
-        [Inject]
-        public void Initialize(IDataGridGenerater[] dataGenerater, IInjectionContainer container)
-        {
-            Debug.Log("MapsManager " + container.GetHashCode());
-        }
-
-
         /// <summary>
         /// 房间列表 to do ，要用链表
         /// </summary>
@@ -59,7 +49,6 @@ namespace HiplayGame
         {
             rooms = new List<DataGrid>();
 
-            var result = _container.ResolveAll<IDataGridGenerater>();
             var data = dataGenerater[0].Generater(11, 11);
             rooms.Add(data);
             return rooms;

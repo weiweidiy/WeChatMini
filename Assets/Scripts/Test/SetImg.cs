@@ -12,14 +12,14 @@ public class SetImg : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log("SetImg Awake");
+        //Debug.Log("SetImg Awake");
 
         this.Inject();
     }
 
     async void Start()
     {
-        Debug.Log("SetImg start");
+        //Debug.Log("SetImg start");
         //Addressables.LoadAssetAsync<Sprite>("icon").Completed += SetImg_Completed;
 
         var sprite = await assetLoader.LoadAssetAsync<Sprite>("icon");

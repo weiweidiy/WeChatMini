@@ -86,7 +86,7 @@ namespace HiplayGame
         /// <returns></returns>
         public UniTask<GameObject> OpenUIAsync(string name, Transform parent)
         {
-            Debug.Log("OpenUI " + name);
+            //Debug.Log("OpenUI " + name);
             Debug.Assert(assetLoader != null, "resourcesManager is null");
 
             return assetLoader.InstantiateAsync(name, parent);
