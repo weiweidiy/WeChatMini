@@ -21,6 +21,7 @@ namespace HiplayGame
 
         public async override UniTask OnEnter()
         {
+            await base.OnEnter();
             //根据数据创建场景
             var dataList = mapManager.CreateMaps();
             Debug.Log(" mapManager " + mapManager.GetHashCode());

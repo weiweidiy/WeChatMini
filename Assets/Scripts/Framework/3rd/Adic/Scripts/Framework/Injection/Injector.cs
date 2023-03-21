@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Adic.Binding;
 using Adic.Cache;
 using Adic.Exceptions;
+using UnityEngine;
 
 namespace Adic.Injection {
     /// <summary>
@@ -214,7 +215,7 @@ namespace Adic.Injection {
             // Array is used for multiple injection.
             // So, when the type is an array, the type to be read from the bindings list is the element type.
             Type typeToGet;
-            IList<BindingInfo> bindings;
+            IList<BindingInfo> bindings = null;
             Boolean typeIsnull = type == null;
             if (typeIsnull) {
                 typeToGet = typeof(object);
@@ -227,9 +228,17 @@ namespace Adic.Injection {
                 } else {
                     typeToGet = type;
                 }
-			
+
+                //Debug.Log("injector hash = " + GetHashCode() );
                 // If a type is provided, look for bindings by identifier.
-                bindings = this.binder.GetBindingsFor(typeToGet);
+                try
+                {
+                    bindings = this.binder.GetBindingsFor(typeToGet);
+                }
+                catch(Exception e)
+                {
+                    Debug.LogError("injector hash = " + GetHashCode());
+                }
             }
 
             IList<object> instances = new List<object>();

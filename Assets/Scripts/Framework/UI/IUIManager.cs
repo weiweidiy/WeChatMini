@@ -20,7 +20,7 @@ namespace HiplayGame
             TopRoot
         }
 
-        void Initialize();
+        //void Initialize();
 
         UniTask<GameObject> OpenUIAsync(string name, Transform parent);
 

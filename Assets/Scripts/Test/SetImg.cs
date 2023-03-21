@@ -13,6 +13,8 @@ public class SetImg : MonoBehaviour
     private void Awake()
     {
         Debug.Log("SetImg Awake");
+
+        this.Inject();
     }
 
     async void Start()
