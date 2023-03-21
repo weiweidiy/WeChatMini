@@ -107,25 +107,25 @@ namespace HiplayGame
         #endregion
 
         #region private
-        /// <summary>
-        /// 创建一个canvas根节点
-        /// </summary>
-        /// <param name="name"></param>
-        /// <returns></returns>
-        Transform CreateRoot(string name)
-        {
-            var go = new GameObject(name);
-            go.AddComponent<RectTransform>();
-            var canvas = go.AddComponent<Canvas>();
-            canvas.renderMode = RenderMode.ScreenSpaceCamera;
-            canvas.worldCamera = GameObject.FindWithTag("MainCamera")?.GetComponent<Camera>();
-            var cScaler = go.AddComponent<CanvasScaler>();
-            go.AddComponent<GraphicRaycaster>();
-            cScaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-            cScaler.referenceResolution = new Vector2(1080, 1920);
-            cScaler.matchWidthOrHeight = 0f;
-            return go.transform;
-        }
+        ///// <summary>
+        ///// 创建一个canvas根节点
+        ///// </summary>
+        ///// <param name="name"></param>
+        ///// <returns></returns>
+        //Transform CreateRoot(string name)
+        //{
+        //    var go = new GameObject(name);
+        //    go.AddComponent<RectTransform>();
+        //    var canvas = go.AddComponent<Canvas>();
+        //    canvas.renderMode = RenderMode.ScreenSpaceCamera;
+        //    canvas.worldCamera = GameObject.FindWithTag("MainCamera")?.GetComponent<Camera>();
+        //    var cScaler = go.AddComponent<CanvasScaler>();
+        //    go.AddComponent<GraphicRaycaster>();
+        //    cScaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+        //    cScaler.referenceResolution = new Vector2(1080, 1920);
+        //    cScaler.matchWidthOrHeight = 0f;
+        //    return go.transform;
+        //}
 
         /// <summary>
         /// 获取一个指定的根节点transform
@@ -137,13 +137,13 @@ namespace HiplayGame
             switch(root)
             {
                 case IUIManager.Root.BottomRoot:
-                    BottomRoot = GameObject.Find(IUIManager.Root.BottomRoot.ToString()).transform;
+                    //BottomRoot = GameObject.Find(IUIManager.Root.BottomRoot.ToString()).transform;
                     return BottomRoot;
                 case IUIManager.Root.MiddleRoot:
-                    MiddleRoot = GameObject.Find(IUIManager.Root.MiddleRoot.ToString()).transform;
+                    //MiddleRoot = GameObject.Find(IUIManager.Root.MiddleRoot.ToString()).transform;
                     return MiddleRoot;
                 case IUIManager.Root.TopRoot:
-                    TopRoot = GameObject.Find(IUIManager.Root.TopRoot.ToString()).transform;
+                    //TopRoot = GameObject.Find(IUIManager.Root.TopRoot.ToString()).transform;
                     return TopRoot;
                 default:
                     return BottomRoot;

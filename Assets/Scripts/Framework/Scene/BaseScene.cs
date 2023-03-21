@@ -13,25 +13,12 @@ namespace HiplayGame
         [Inject]
         protected IInjectionContainer _container;
 
+        [Inject]
+        protected IUIManager _uiManager;
+
         public virtual string Name => GetType().ToString();
 
         public virtual string Location => GetType().ToString();
-
-        /// <summary>
-        /// 底层canvas挂载根节点
-        /// </summary>
-        public Transform BottomRoot { get; private set; }
-
-        /// <summary>
-        /// 中层canvas挂载根节点
-        /// </summary>
-        public Transform MiddleRoot { get; private set; }
-
-        /// <summary>
-        /// 顶层canvas挂载根节点
-        /// </summary>
-        public Transform TopRoot { get; private set; }
-
 
         [Inject]
         public virtual void Initialize() { }
@@ -60,53 +47,11 @@ namespace HiplayGame
 
         public async virtual UniTask OnEnter() {
             //初始化 BottomRoot
-            var bRoot = GameObject.Find(IUIManager.Root.BottomRoot.ToString());
-            if (bRoot == null)
-            {
-                BottomRoot = CreateRoot(IUIManager.Root.BottomRoot.ToString());
-            }
-            else
-            {
-                BottomRoot = bRoot.transform;
-            }
+            _uiManager.BottomRoot = CreateRoot(IUIManager.Root.BottomRoot.ToString());
 
+            _uiManager.MiddleRoot = CreateRoot(IUIManager.Root.MiddleRoot.ToString());
 
-            var canvas = BottomRoot.GetComponent<Canvas>();
-            if (canvas == null)
-                throw new Exception("场景中缺少 BottomRoot 的Canvas组件");
-
-            //初始化 MiddleRoot
-            var mRoot = GameObject.Find(IUIManager.Root.MiddleRoot.ToString());
-            if (mRoot == null)
-            {
-                MiddleRoot = CreateRoot(IUIManager.Root.MiddleRoot.ToString());
-            }
-            else
-            {
-                MiddleRoot = mRoot.transform;
-            }
-
-
-            canvas = MiddleRoot.GetComponent<Canvas>();
-            if (canvas == null)
-                throw new Exception("场景中缺少 MiddleRoot 的Canvas组件");
-
-
-            //初始化 TopRoot
-            var tRoot = GameObject.Find(IUIManager.Root.TopRoot.ToString());
-            if (tRoot == null)
-            {
-                TopRoot = CreateRoot(IUIManager.Root.TopRoot.ToString());
-            }
-            else
-            {
-                TopRoot = tRoot.transform;
-            }
-
-
-            canvas = TopRoot.GetComponent<Canvas>();
-            if (canvas == null)
-                throw new Exception("场景中缺少 TopRoot 的Canvas组件");
+            _uiManager.TopRoot = CreateRoot(IUIManager.Root.TopRoot.ToString());
 
             await UniTask.DelayFrame(0); }
 
