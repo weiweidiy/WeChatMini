@@ -321,6 +321,16 @@
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\02_BindingGameObjects\Scripts\GameObjectRotator.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommanderExtension.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\IInjector.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileFilter.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\ReplaceTextFileProcessor.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\EventManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\RepeatFileProcessor.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\Event.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\ReadTextFileProcessor.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileProcessor.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\RoutingStrategy.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\HandlerWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\upgrading from 1.x to 2.x.txt" />

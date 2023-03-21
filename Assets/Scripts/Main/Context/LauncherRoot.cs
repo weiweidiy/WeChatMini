@@ -21,16 +21,16 @@ namespace HiplayGame
             var container = this.AddContainer(new InjectionContainer(StaticReflectionCache.cache))
                         .RegisterExtension<CommanderContainerExtension>();
 
-            //通用类
+            //通用类,没什么依赖的
             container.Bind<IAssetLoader>().ToSingleton<AddressableLoader>();
             container.Bind<ITransitionProvider>().ToSingleton<DefaultTransitionProvider>();
             container.Bind<IUIManager>().ToSingleton<UIManager>();
             
-            //帮助类
+            //帮助类，没什么依赖的
             container.Bind<IDataGridGenerater>().ToSingleton<DataGridGenerater>();
             container.Bind<IDataGridGenerater>().ToSingleton<DataGridGenerater2>();
 
-            //管理类
+            //管理类，依赖一些子类
             container.Bind<MapsManager>().ToSingleton<MapsManager>();
 
             //业务场景类
