@@ -1,9 +1,11 @@
 using EnhancedUI.EnhancedScroller;
+using HiplayGame;
 using System;
 using UnityEngine;
 
 namespace EnhancedScrollerAdvance
 {
+    //[RequireComponent(typeof(BindingComponents))]
     public class EnhancedCellViewAdvanceV2 : EnhancedScrollerCellView
     {
         /// <summary>
@@ -35,6 +37,16 @@ namespace EnhancedScrollerAdvance
         /// 固定尺寸属性
         /// </summary>
         public float size;
+
+        /// <summary>
+        /// 组件绑定
+        /// </summary>
+        BindingComponents bindingComponents;
+
+        private void Awake()
+        {
+            bindingComponents = GetComponent<BindingComponents>();
+        }
 
         /// <summary>
         /// 刷新时被调用

@@ -7,7 +7,7 @@ namespace HiplayGame
     {
         public void SetupBindings(IInjectionContainer container)
         {
-            container.RegisterExtension<CommanderContainerExtension>()
+            container.RegisterExtension<CommanderContainerExtension>();
                     //.RegisterCommand<StartupLoginCommand>();
         }
     }

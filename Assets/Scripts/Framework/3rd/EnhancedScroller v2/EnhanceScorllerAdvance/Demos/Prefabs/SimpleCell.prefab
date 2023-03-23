@@ -27,6 +27,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 337033682771147930}
   m_Father: {fileID: 0}
@@ -52,6 +53,8 @@ MonoBehaviour:
   cellIdentifier: 
   rowCells:
   - {fileID: 337033682771147931}
+  sizeMode: 0
+  cellDrivenSizeTransform: {fileID: 0}
   size: 100
 --- !u!1 &337033682771147931
 GameObject:
@@ -65,6 +68,7 @@ GameObject:
   - component: {fileID: 337033682771147928}
   - component: {fileID: 337033682771147929}
   - component: {fileID: 7491586146068333152}
+  - component: {fileID: 6411202639929949044}
   m_Layer: 5
   m_Name: Item
   m_TagString: Untagged
@@ -82,6 +86,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 337033683221806652}
   m_Father: {fileID: 337033681869056521}
@@ -115,6 +120,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.73372275, g: 0.8867924, b: 0.6065326, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -143,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -172,6 +179,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6411202639929949044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337033682771147931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e8c96b3155c1747803251d2f923661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BindingObjects:
+  - Name: Text
+    Object: {fileID: 337033683221806651}
 --- !u!1 &337033683221806653
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +222,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 337033682771147930}
   m_RootOrder: 0
@@ -232,6 +255,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

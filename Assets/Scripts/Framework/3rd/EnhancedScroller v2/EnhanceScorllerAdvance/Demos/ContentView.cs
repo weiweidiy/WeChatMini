@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-using EnhancedScrollerAdvance;
-using System;
 using UnityEngine.UI;
 
 
@@ -22,7 +20,7 @@ namespace EnhancedScrollerAdvance.Demo
             btnSelect.onClick.RemoveAllListeners();
             btnSelect.onClick.AddListener(() => { /*onSelected?.Invoke(this, new EventArgs());*/ SelectionClicked(this); });
 
-            txtContent = _go.transform.GetComponentInChildren<Text>();
+            txtContent = GetBindingComponent("Text") as Text;  // _go.transform.GetComponentInChildren<Text>();
             imgSelectImage = _go.transform.GetComponent<Image>();
         }
 

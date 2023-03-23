@@ -1,3 +1,4 @@
+using HiplayGame;
 using System;
 using UnityEngine;
 //using EventArgs = System.EventArgs;
@@ -18,6 +19,7 @@ namespace EnhancedScrollerAdvance
 
         protected GameObject _go;
         protected EnhancedDataV2 _data;
+        BindingComponents _bindings;
 
         //public int DataIndex { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
@@ -28,6 +30,7 @@ namespace EnhancedScrollerAdvance
         public void Initialize(GameObject cellGo)
         {
             _go = cellGo;
+            _bindings = _go.GetComponent<BindingComponents>();
             OnInitialize();
         }
 
@@ -77,6 +80,11 @@ namespace EnhancedScrollerAdvance
         public virtual void OnVisibilityChanged()
         {
             //throw new NotImplementedException();
+        }
+
+        protected UnityEngine.Object GetBindingComponent(string name)
+        {
+            return _bindings.GetBindingComponent(name);
         }
     }
 }
