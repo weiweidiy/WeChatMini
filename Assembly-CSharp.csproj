@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMPostRenderTransition.cs" />
     <Compile Include="Assets\Scripts\Main\Bindings\Login\LoginCommandsBindings.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\ILateUpdatable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\RoutingStrategy.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Container\IInjectionContainer.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IFocusable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IUpdatable.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\BindingComponents.cs" />
     <Compile Include="Assets\Scripts\Main\Logic\BussinessInitializeGameSceneUI.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\ITransitionProvider.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileFilter.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXTouchInputOverride.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Behaviours\NamespaceCommandBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\IReflectionCache.cs" />
@@ -131,6 +133,7 @@
     <Compile Include="Assets\Scripts\Main\Bindings\Login\TransformBindings.cs" />
     <Compile Include="Assets\Scripts\Main\Commands\Common\SwitchSceneCommand.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXInnerAudioContext.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\Event.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Bindings\DataBindings.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ParameterInfo.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXLaunchProgress.cs" />
@@ -159,6 +162,7 @@
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedDetailCellHandleV2.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\EnhancedScrollerCellView.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\HandlerWrapper.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Converter.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\NestEnhancedScrollerDelegateV2.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\Lexer.cs" />
@@ -183,6 +187,7 @@
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedCellHandleFactoryV2.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMTransitionUtils.cs" />
     <Compile Include="Assets\Scripts\Framework\UI\IUIManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\ReplaceTextFileProcessor.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\InjectionUtil.cs" />
     <Compile Include="Assets\WX-WASM-SDK\HideLoadingPage.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Factories\CubeFactory.cs" />
@@ -191,11 +196,13 @@
     <Compile Include="Assets\Scripts\Main\Define\GameDefine.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedScrollRectExV2.cs" />
     <Compile Include="Assets\Scripts\Framework\Scene\ISceneProvider.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileProcessor.cs" />
     <Compile Include="Assets\Scripts\Framework\Scene\BaseScene.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\EventCallerBehaviour.cs" />
     <Compile Include="Assets\Scripts\Main\Mono\DataGridDebugger.cs" />
     <Compile Include="Assets\Scripts\Framework\Config\ILocalDataManager.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonReader.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\EventManager.cs" />
     <Compile Include="Assets\Scripts\Framework\Bussiness\BaseBussiness.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Behaviours\Cube.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\InjectDelegates.cs" />
@@ -220,6 +227,7 @@
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedCellViewAdvanceV2.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXEnv.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingDelegates.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\RepeatFileProcessor.cs" />
     <Compile Include="Assets\WX-WASM-SDK\Cloud.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXInterstitialAd.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\Inject.cs" />
@@ -262,6 +270,7 @@
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Commands\SpawnObjectsCommand.cs" />
     <Compile Include="Assets\Scripts\Framework\Base\IAssetLoader.cs" />
     <Compile Include="Assets\Scripts\Framework\Scene\IScene.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileUtils.cs" />
     <Compile Include="Assets\Scripts\Main\Bindings\Common\CommonClassBindings.cs" />
     <Compile Include="Assets\Scripts\Framework\Map\Grid\DataGrid.cs" />
     <Compile Include="Assets\Scripts\Framework\Map\Grid\Grid.cs" />
@@ -293,6 +302,7 @@
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\Binder.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXSDKManagerHandler.cs" />
     <Compile Include="Assets\Scripts\Main\Bindings\Common\CommonCommandsBindings.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\ReadTextFileProcessor.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXBannerAd.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\JumpDemo\JumpDemo.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ComplexDemo\ComplexDemo.cs" />

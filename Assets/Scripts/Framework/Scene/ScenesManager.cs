@@ -41,7 +41,7 @@ namespace HiplayGame
 
             var sceneObj = await assetLoader.LoadSceneAsync(targetScene.Location);
 
-            sceneProvider = GameObject.Find("Context").GetComponent<ContextRoot>().containers[0].Resolve<ISceneProvider>();
+            //sceneProvider = GameObject.Find("Context").GetComponent<ContextRoot>().containers[0].Resolve<ISceneProvider>();
 
             CurScene = sceneProvider.GetScene(target);
 

@@ -21,9 +21,10 @@ namespace HiplayGame
 
         public async override UniTask OnEnter()
         {
+            await base.OnEnter();
             //根据数据创建场景
             var dataList = mapManager.CreateMaps();
-            Debug.Log(" mapManager " + mapManager.GetHashCode());
+            //Debug.Log(" mapManager " + mapManager.GetHashCode());
             var go = new GameObject("DataGridDebugger");
             _container.Bind<DataGridDebugger>().ToGameObject(go).AsObjectName();
 

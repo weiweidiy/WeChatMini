@@ -31,7 +31,7 @@ namespace HiplayGame
         // Start is called before the first frame update
         void Start()
         {
-            Debug.Log("StartButton start");
+            //Debug.Log("StartButton start");
         }
 
         // Update is called once per frame

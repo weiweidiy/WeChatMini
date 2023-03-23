@@ -10,7 +10,6 @@ namespace HiplayGame
         [Inject]
         IDataGridGenerater[] dataGenerater;
 
-
         /// <summary>
         /// 房间列表 to do ，要用链表
         /// </summary>

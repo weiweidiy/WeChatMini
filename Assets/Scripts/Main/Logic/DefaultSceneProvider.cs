@@ -1,4 +1,5 @@
 
+using Adic;
 using Adic.Container;
 using UnityEngine;
 
@@ -6,16 +7,16 @@ namespace HiplayGame
 {
     public class DefaultSceneProvider : ISceneProvider
     {
+        [Inject]
         IInjectionContainer container;
 
-        public DefaultSceneProvider(IInjectionContainer container)
+        [Inject]
+        protected void Initialize()
         {
-            //Debug.Log("DefaultSceneProvider container :" + container.GetHashCode());
-            this.container = container;
-
             this.container.Bind<SceneGame>().ToSingleton();
             this.container.Bind<SceneLogin>().ToSingleton();
         }
+
 
         public IScene GetNextScene(string currentSceneName)
         {

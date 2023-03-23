@@ -15,6 +15,7 @@ namespace HiplayGame
 
         public async override UniTask OnEnter()
         {
+            await base.OnEnter();
             var logic = _container.Resolve<BussinessInitializeLoginSceneUI>();
             await logic.Run();
         }

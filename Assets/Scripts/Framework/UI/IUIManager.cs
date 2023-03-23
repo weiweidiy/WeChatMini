@@ -20,7 +20,17 @@ namespace HiplayGame
             TopRoot
         }
 
-        void Initialize();
+        Transform BottomRoot { get; set; }
+
+        /// <summary>
+        /// 中层canvas挂载根节点
+        /// </summary>
+        Transform MiddleRoot { get; set; }
+
+        /// <summary>
+        /// 顶层canvas挂载根节点
+        /// </summary>
+        Transform TopRoot { get; set; }
 
         UniTask<GameObject> OpenUIAsync(string name, Transform parent);
 
