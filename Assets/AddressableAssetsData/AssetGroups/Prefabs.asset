@@ -21,6 +21,14 @@ MonoBehaviour:
     m_Address: StartButton
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 314006765527bee419fe69b76fdbe5ef
+    m_Address: Ground
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccd8c3b89aa02e943a08ab9238a8a70c
+    m_Address: PolyArtWizardStandardMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 4b7516ebe1d32ec4fb7a52d3ac4d484c, type: 2}
   m_SchemaSet:

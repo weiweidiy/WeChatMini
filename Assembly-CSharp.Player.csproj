@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Player\</OutputPath>
-    <DefineConstants>UNITY_2021_3_15;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_IL2CPP;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_15;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -49,296 +49,563 @@
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>WebGL:20</UnityBuildTarget>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2021.3.15f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\IObserver.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ReflectionCache.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\ContextRoot\SceneInjector.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Concurrency.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ToArray.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\01_HelloWorld\Scripts\HelloWorld.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommanderUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Single.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateTrigger.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\ParserToken.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntry.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notification.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\MicroCoroutine.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ThrottleFirst.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\NormalEnhancedScrollerDelegateV2.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXLongCallBackHandler.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\05_Commander\Scripts\Commands\RotateGameObjectCommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\IgnoreElements.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSubmitTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Json.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IQuitable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\01_HelloWorld\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\CancellationToken.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\UniRx\Tests\UniRxTests.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\UnityBindingConditionFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\BindingsSetup\BindingPriority.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Json.IJsonHelper.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Tests\AsyncUtilTests.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedCellViewV2.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXGridAd.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\SubjectExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\Scene\ScenesManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Sample.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Return.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\DispatcherOptions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\EnhancedScroller.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\LifetimeDisposableExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\TakeWhile.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\PairWise.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableBeginDragTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Repeat.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\NestScrollerDemo\NestScrollerDemo.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMTilesTransition.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\MultipleBindingConditionFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\InspectableReactiveProperty.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMPostRenderTransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ImmutableList.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Tasks\TaskObservableExtensions.cs" />
     <Compile Include="Assets\Scripts\Main\Bindings\Login\LoginCommandsBindings.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTransformChangedTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notifiers\MessageBroker.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UnityEventExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\AsyncOperationExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDropTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\ILateUpdatable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\RoutingStrategy.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Container\IInjectionContainer.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IFocusable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Awaiter.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IUpdatable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\BatchFrame.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Aggregate.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\AotSafeExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedCellViewAdvanceV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\IProgress.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCancelTrigger.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXEnv.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Paging.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Types\CommandReference.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingDelegates.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\ConnectableObservable.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMBlindsTransition.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\Injector.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\RepeatFileProcessor.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\TakeUntil.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXGameClubButton.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ObservableMonoBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMCartoonTransition.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Marshal.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\ContextRoot\IContextRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Cast.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\Cloud.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\WhenAll.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Range.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ReflectedClass.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedCellHandleV2.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedUnitDataBuilderV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Joins.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityDumper.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\ThreadPoolScheduler.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Behaviours\Rotator.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXInterstitialAd.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\SimpleDemo\SimpleDemo.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\BindingsSetup\BindingsSetupExtension.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\MonoInjectionExtension.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\BindingsSetup\BindingsSetupExtension.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMouseTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\Inject.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\TimeInterval.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXCustomAd.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMCinemaTransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\SampleFrame.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Amb.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\ComplexEnhancedScrollerDelegateV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXModels.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Binding.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollision2DTrigger.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXFileCacheClean.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Compression.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\PostConstruct.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\FrameInterval.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\PlayerPrefs.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Util\MethodUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEventTrigger.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXAdBaseStyle.cs" />
     <Compile Include="Assets\Scripts\Main\Logic\SceneLogin.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample02_ObservableTriggers.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ObserveExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UnityEqualityComparer.cs" />
     <Compile Include="Assets\Scripts\Main\Mono\CommonButton.cs" />
     <Compile Include="Assets\Scripts\Main\Logic\SceneGame.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Scan.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableStateMachineTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\OperatorObserverBase.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\UnityBindingExtension.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXBase.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityWinRTBridge\Thread.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ZipLatest.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\Tuple.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\FootView.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ReactiveProperty.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXAdCustomStyle.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Empty.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\BehaviorSubject.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonMapper.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\Extensions.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\BindingComponents.cs" />
-    <Compile Include="Assets\Scripts\Main\Logic\BussinessInitializeGameSceneUI.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\BusinessInitializeGameSceneUI.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\DelayFrameSubscription.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDestroyTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\MethodInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notifiers\ScheduledNotifier.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\ITransitionProvider.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ScenePlaybackDetector.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerBase.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\Awaiters.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileFilter.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Exceptions\BinderException.cs" />
+    <Compile Include="Assets\Scripts\Framework\Map\Grid\IDataGridGenerater.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\RepeatUntil.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXTouchInputOverride.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Behaviours\NamespaceCommandBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Path.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample12_ReactiveProperty.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\IReflectionCache.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\05_Commander\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ReactiveCommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedScrollerViewAdvanceV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFrame.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonMockWrapper.cs" />
+    <Compile Include="Assets\Scripts\Main\Bindings\Game\GameCommandsBindings.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Behaviours\CubeRotator.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXCanvas.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\MultipleAssignmentDisposable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\ContextRoot\ContextRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\UnityBindingContainerExtension.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Throttle.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Command.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\Unit.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Behaviours\CommandDispatch.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\FromEvent.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample06_ConvertToCoroutine.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\SubscribeOnMainThread.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXFileSystemManager.cs" />
     <Compile Include="Assets\Scripts\Main\Logic\DefaultSceneProvider.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\WhereSelect.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Timer.cs" />
+    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMFadeTransition.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\03_UsingConditions\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Types\IFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableInitializePotentialDragTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Concat.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UnityUIComponentExtensions.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMNinjaTransition.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Encryption.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\MainThreadDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Util\CallDelegates.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ReflectionFactory.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Verifier.Crc32.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\AscynLock.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ReactiveCollection.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\RefreshDemo\RefreshDemo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\FrameTimeInterval.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBindingFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Finally.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMTransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableScrollTrigger.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\BusinessInitializeLoginSceneUI.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\DistinctUntilChanged.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\FrameInterval.cs" />
+    <Compile Include="Assets\Scripts\Framework\Config\IConfigManager.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Compression.ICompressionHelper.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Creation.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\WithLatestFrom.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Bindings\PrefabBindings.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableFixedUpdateTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerEnterTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\RefCountDisposable.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonWriter.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\YieldInstructionCache.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Behaviours\TimedCommandDispatch.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Wait.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerDownTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\05_Commander\Scripts\Commands\SpawnGameObjectCommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\UnityDebugSink.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\InjectionMember.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\LazyTask.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerExitTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedUnitViewV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\Scheduler.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXGameRecorder.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSelectTrigger.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\MapsManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollisionTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\RefCount.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\ICommandPool.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample03_GameObjectAsObservable.cs" />
+    <Compile Include="Assets\Scripts\Framework\Scene\IScenesManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Asynchronous\WebRequestExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\DelayFrame.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\ISubject.cs" />
+    <Compile Include="Assets\Scripts\Main\Commands\Game\StartupGameCommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\FromCoroutine.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\Tween.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Events.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ResizeDemo\ResizeDemo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Commands\SpawnObjectsCommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\Base\IAssetLoader.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample10_MainThreadDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.ErrorHandling.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\EventPattern.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\08_UnityEvents\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\Scene\IScene.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Distinct.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBinder.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\PresenterBase.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedNestCellHandleV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\Logger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\TimeoutFrame.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Delay.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ObservableWWW.cs" />
+    <Compile Include="Assets\Scripts\Main\Bindings\Common\CommonClassBindings.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample11_Logger.cs" />
     <Compile Include="Assets\Scripts\Main\Bindings\Login\TransformBindings.cs" />
     <Compile Include="Assets\Scripts\Main\Commands\Common\SwitchSceneCommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\DelaySubscription.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\StartWith.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\Disposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\Map\Grid\DataGrid.cs" />
+    <Compile Include="Assets\Scripts\Framework\Map\Grid\Grid.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\SmallList.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXInnerAudioContext.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\TimeInterval.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\MultiCellsDemo\MultiCellDemo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\AwaitExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ContinueWith.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\MainThreadScheduler.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\Event.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\IJsonWrapper.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Bindings\DataBindings.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ParameterInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\ResolutionMode.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Timestamp.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableLogger.cs" />
+    <Compile Include="Assets\Scripts\Test\SetImg.cs" />
+    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMPlainTransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\IScheduler.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SkipUntil.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Synchronize.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\InjectFromContainer.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXLaunchProgress.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonData.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\StableCompositeDisposable.cs" />
+    <Compile Include="Assets\Scripts\Test\TestAdic.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Random.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Timeout.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\CancellationDisposable.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXProfileStatsScript.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\TypedMonoBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Aggregate.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\SingleAssignmentDisposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ToObservable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\IObservable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCanvasGroupChangedTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Verifier.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\CoroutineAsyncBridge.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Do.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXRewardedVideoAd.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXShortAudio.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Assembly.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Container\InjectionContainer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\Construct.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\UnityTypeBindings.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableVisibleTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\UI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\InspectorDisplayDrawer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\AsObservable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedDataV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Exceptions\BindingException.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Zip.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\02_BindingGameObjects\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedDetailCellHandleFactoryV2.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedCellViewFactoryV2.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Bindings\FactoryBindings.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\TaskExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notifiers\BooleanNotifier.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\InjectionContext.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableRectTransformTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBindingCreator.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notifiers\CountNotifier.cs" />
     <Compile Include="Assets\WX-WASM-SDK\interface.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\BindingsSetup\IBindingsSetup.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Timestamped.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMNewspaperTransition.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WX.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\EventCallerContainerExtension.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\RowCellsDemo\RowCellsDemo.cs" />
     <Compile Include="Assets\Scripts\Main\Context\LoginRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ContentView.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\ImmediateScheduler.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Concatenate.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\SingleBindingConditionFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Skip.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\OperatorObservableBase.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ObserveOn.cs" />
+    <Compile Include="Assets\Scripts\AddressableDownLoadMgr.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SubscribeOn.cs" />
+    <Compile Include="Assets\Scripts\Main\Context\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Text.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Exceptions\CommandException.cs" />
     <Compile Include="Assets\Scripts\Main\Logic\DataGridGenerater.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Exceptions\InjectorException.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\GroupBy.cs" />
     <Compile Include="Assets\Scripts\Framework\Base\AddressableLoader.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Util\TypeUtils.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedDetailCellHandleV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\EnhancedScrollerCellView.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingFactory.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\HandlerWrapper.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Converter.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\NestEnhancedScrollerDelegateV2.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\Lexer.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXUploadFile.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\CellView.cs" />
-    <Compile Include="Assets\Scripts\Main\Context\LauncherRoot.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXModel.cs" />
-    <Compile Include="Assets\Scripts\Framework\Transition\DefaultTransitionProvider.cs" />
-    <Compile Include="Assets\Scripts\Main\Modules\StaticReflectionCache.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXBaseAd.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXRecorder.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXVideo.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommandDispatcher.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\IEnhancedScrollerDelegate.cs" />
-    <Compile Include="Assets\Scripts\Main\Commands\Login\StartupLoginCommand.cs" />
-    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMPixelateTransition.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IPausable.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\04_Prefabs\Scripts\GameRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\IReflectionFactory.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Container\IContainerExtension.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedUnitViewPlaceHolderFactoryV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedCellHandleFactoryV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMTransitionUtils.cs" />
-    <Compile Include="Assets\Scripts\Framework\UI\IUIManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\ReplaceTextFileProcessor.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\InjectionUtil.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\HideLoadingPage.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Factories\CubeFactory.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Text.ITextHelper.cs" />
-    <Compile Include="Assets\Scripts\Test\SetFont.cs" />
-    <Compile Include="Assets\Scripts\Main\Define\GameDefine.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedScrollRectExV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\Scene\ISceneProvider.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileProcessor.cs" />
-    <Compile Include="Assets\Scripts\Framework\Scene\BaseScene.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\EventCallerBehaviour.cs" />
-    <Compile Include="Assets\Scripts\Main\Mono\DataGridDebugger.cs" />
-    <Compile Include="Assets\Scripts\Framework\Config\ILocalDataManager.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonReader.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\EventManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\Bussiness\BaseBussiness.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Behaviours\Cube.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\InjectDelegates.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\StateInjection\StateInjectionExtension.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\AcessorInfo.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\03_UsingConditions\Scripts\GameObjectRotator.cs" />
-    <Compile Include="Assets\Scripts\Main\Bindings\Game\GameClassBindings.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedNestCellHandleFactoryV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IFixedUpdatable.cs" />
-    <Compile Include="Assets\Scripts\Framework\Bussiness\IGameBussiness.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\PrefabBinding.cs" />
-    <Compile Include="Assets\Scripts\Framework\Exception\GameFrameworkException.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ReflectionCache.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\ContextRoot\SceneInjector.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\NormalEnhancedScrollerDelegateV2.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXLongCallBackHandler.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\BindingsSetup\BindingPriority.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXGridAd.cs" />
-    <Compile Include="Assets\Scripts\Framework\Scene\ScenesManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\EnhancedScroller.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\GameRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedCellViewAdvanceV2.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXEnv.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingDelegates.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\RepeatFileProcessor.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\Cloud.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXInterstitialAd.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\Inject.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\ComplexEnhancedScrollerDelegateV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXModels.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\GameRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\PostConstruct.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\PlayerPrefs.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXAdBaseStyle.cs" />
-    <Compile Include="Assets\Scripts\Main\Logic\BussinessInitializeLoginSceneUI.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\UnityBindingExtension.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXBase.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\FootView.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonMapper.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\Extensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\MethodInfo.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Exceptions\BinderException.cs" />
-    <Compile Include="Assets\Scripts\Framework\Map\Grid\IDataGridGenerater.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Path.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedScrollerViewAdvanceV2.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonMockWrapper.cs" />
-    <Compile Include="Assets\Scripts\Main\Bindings\Game\GameCommandsBindings.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Behaviours\CubeRotator.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXCanvas.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\UnityBindingContainerExtension.cs" />
-    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMFadeTransition.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Types\IFactory.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Util\CallDelegates.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ReflectionFactory.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBindingFactory.cs" />
-    <Compile Include="Assets\Scripts\Framework\Config\IConfigManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Bindings\PrefabBindings.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\05_Commander\Scripts\Commands\SpawnGameObjectCommand.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedUnitViewV2.cs" />
-    <Compile Include="Assets\Scripts\Main\Logic\MapsManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\Scene\IScenesManager.cs" />
-    <Compile Include="Assets\Scripts\Main\Commands\Game\StartupGameCommand.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ResizeDemo\ResizeDemo.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Commands\SpawnObjectsCommand.cs" />
-    <Compile Include="Assets\Scripts\Framework\Base\IAssetLoader.cs" />
-    <Compile Include="Assets\Scripts\Framework\Scene\IScene.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileUtils.cs" />
-    <Compile Include="Assets\Scripts\Main\Bindings\Common\CommonClassBindings.cs" />
-    <Compile Include="Assets\Scripts\Framework\Map\Grid\DataGrid.cs" />
-    <Compile Include="Assets\Scripts\Framework\Map\Grid\Grid.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\SmallList.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\MultiCellsDemo\MultiCellDemo.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\IJsonWrapper.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\ResolutionMode.cs" />
-    <Compile Include="Assets\Scripts\Test\SetImg.cs" />
-    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMPlainTransition.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\InjectFromContainer.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonData.cs" />
-    <Compile Include="Assets\Scripts\Test\TestAdic.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Random.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Assembly.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\Construct.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\UnityTypeBindings.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Exceptions\BindingException.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\02_BindingGameObjects\Scripts\GameRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedDetailCellHandleFactoryV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\InjectionContext.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\BindingsSetup\IBindingsSetup.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ContentView.cs" />
-    <Compile Include="Assets\Scripts\AddressableDownLoadMgr.cs" />
-    <Compile Include="Assets\Scripts\Main\Context\GameRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Text.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Observable.Unity.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\08_UnityEvents\Scripts\EventReceiver.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UnityWebSocket\Demo\UnityWebSocketDemo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Merge.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\RepeatSafe.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingInstance.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Util\TypeUtils.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\ICommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDeselectTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\Binder.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedDetailCellHandleV2.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXSDKManagerHandler.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\IOptimizedObservable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UnityGraphicExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\EnhancedScrollerCellView.cs" />
     <Compile Include="Assets\Scripts\Main\Bindings\Common\CommonCommandsBindings.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SelectMany.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerClickTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Dematerialize.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateSelectedTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\ReadTextFileProcessor.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXBannerAd.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\UniRx\UnirxAwaitExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\HandlerWrapper.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Converter.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\JumpDemo\JumpDemo.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ComplexDemo\ComplexDemo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Start.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\TakeLast.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample09_EventHandling.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Select.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\NestEnhancedScrollerDelegateV2.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonException.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Defer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ComplexDemo\ComplexDemo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.FromAsync.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\Subject.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UniRxSynchronizationContext.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\Lexer.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedUnitViewFactoryV2.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\ICommandDispatcher.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXUploadFile.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\CellView.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Materialize.cs" />
+    <Compile Include="Assets\Scripts\Main\Context\LauncherRoot.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXModel.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXCamera.cs" />
+    <Compile Include="Assets\Scripts\Framework\Transition\DefaultTransitionProvider.cs" />
+    <Compile Include="Assets\Scripts\Main\Modules\StaticReflectionCache.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedUnitViewV2.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXBaseAd.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\HeadView.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample08_DetectDoubleClick.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\PriorityQueue.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXRecorder.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\DictionaryDisposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTrigger2DTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample05_ConvertFromCoroutine.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXUserInfoButton.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXVideo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ForEachAsync.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ToList.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEnableTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ListObserver.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Time.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXOpenDataContext.cs" />
     <Compile Include="Assets\Scripts\Main\Logic\LocalDataManager.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommanderContainerExtension.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Throw.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\SerialDisposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommandDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\OfType.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\IEnhancedScrollerDelegate.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Pair.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableAnimatorTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Conversions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\First.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\BooleanDisposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\ICancelable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableLateUpdateTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntryExtensions.cs" />
+    <Compile Include="Assets\Scripts\Main\Commands\Login\StartupLoginCommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMPixelateTransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IPausable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEndDragTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\04_Prefabs\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\IReflectionFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Never.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Container\IContainerExtension.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXUDPSocketManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Catch.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedUnitViewPlaceHolderFactoryV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedCellHandleFactoryV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityWinRTBridge\ThreadPoolScheduler_UnityWinRT.cs" />
+    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMTransitionUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Where.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ReactiveDictionary.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SelectWhere.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.Component.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\CurrentThreadScheduler.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\04_Prefabs\Scripts\CubeRotator.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ComplexCellView.cs" />
+    <Compile Include="Assets\Scripts\Framework\UI\IUIManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Blocking.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample13_ToDoApp.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\ReplaySubject.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Switch.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedScrollerDelegateV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\ReplaceTextFileProcessor.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\CombineLatest.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\InjectionUtil.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXCallBackHandler.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\ITransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\CompositeDisposable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBindingConditionFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SkipWhile.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\HideLoadingPage.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableParticleTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample01_ObservableWWW.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\AsSingleUnitObservable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Factories\CubeFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Text.ITextHelper.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ThreadSafeQueueWorker.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerUpTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\PlaceHolderFactory.cs" />
+    <Compile Include="Assets\Scripts\Test\SetFont.cs" />
+    <Compile Include="Assets\Scripts\Main\Define\GameDefine.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedScrollRectExV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFirstFrame.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMTetrisTransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDragTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\AsyncSubject.cs" />
+    <Compile Include="Assets\Scripts\Framework\Scene\ISceneProvider.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ReflectionAccessor.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Data\CubeRotationSpeed.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample04_ConvertFromUnityCallback.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileProcessor.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample07_OrchestratIEnumerator.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMTransitionState.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Create.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SynchronizedObserver.cs" />
+    <Compile Include="Assets\Scripts\Framework\Scene\BaseScene.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\EventCallerBehaviour.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\Netstandard15Polyfill.cs" />
+    <Compile Include="Assets\Scripts\Main\Mono\DataGridDebugger.cs" />
+    <Compile Include="Assets\Scripts\Framework\Config\ILocalDataManager.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonReader.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Buffer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\EventManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Toolkit\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Framework\Bussiness\BaseBussiness.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\02_BindingGameObjects\Scripts\GameObjectRotator.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Behaviours\Cube.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\InjectDelegates.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommanderExtension.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\BusinessInitializeGame.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\StateInjection\StateInjectionExtension.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\AsUnitObservable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\AcessorInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ScheduledItem.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\03_UsingConditions\Scripts\GameObjectRotator.cs" />
+    <Compile Include="Assets\Scripts\Main\Bindings\Game\GameClassBindings.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMoveTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedNestCellHandleFactoryV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\DisposableExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\ScheduledDisposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableDebugExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IFixedUpdatable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\WaitForUpdate.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Take.cs" />
+    <Compile Include="Assets\Scripts\Framework\Bussiness\IGameBusiness.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\PrefabBinding.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\IInjector.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\DefaultIfEmpty.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Last.cs" />
+    <Compile Include="Assets\Scripts\Framework\Exception\GameFrameworkException.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\State.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\StateInterface.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\Example\ExampleCharacterWander.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\MachineBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\Example\ExampleCharacter.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\MachineState.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\MachineInterface.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\Example\ExampleCharacterIdle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\upgrading from 1.x to 2.x.txt" />
     <None Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\ChangeLog.txt" />
+    <None Include="Assets\Scripts\Framework\3rd\UniRx\ReadMe.txt" />
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMNewspaperEffect.shader" />
     <None Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Tutorials\readme.txt" />
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMNinjaEffect.shader" />
+    <None Include="Assets\Download\WizardPolyArt\Shader\PolyArtMaskTint.shader" />
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMCinemaEffect.shader" />
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMTetrisEffect.shader" />
     <None Include="Assets\Scripts\Framework\3rd\Adic\LICENSE.txt" />
@@ -347,220 +614,216 @@
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMCartoonEffect.shader" />
     <None Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\readme.txt" />
     <None Include="Assets\Scripts\Framework\3rd\Adic\CHANGELOG.txt" />
+    <None Include="Assets\Download\WizardPolyArt\SRP\HowToTestSRPs.txt" />
+    <None Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\README.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.AIModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DSPGraphModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.DirectorModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GIModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.GIModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.GIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GridModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.GridModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.GridModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.LocalizationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ProfilerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.StreamingModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.StreamingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubsystemsModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TLSModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.TerrainModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreFontEngineModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreTextEngineModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsNativeModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UIElementsNativeModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UIElementsNativeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIWidgetsModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UIWidgetsModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UIWidgetsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UNETModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UNETModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityCurlModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.WebGLModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.WebGLModule.dll</HintPath>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.WindModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -933,49 +1196,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.Player.csproj">
-      <Project>{3A9F3DCB-7A7D-D504-6051-8114C0D523E5}</Project>
-      <Name>Assembly-CSharp-firstpass.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.Player.csproj">
-      <Project>{63979695-A1A6-4F70-F14F-8D7B5D2B949E}</Project>
-      <Name>Unity.InternalAPIEngineBridge.001.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.PixelPerfect.Player.csproj">
-      <Project>{946A091D-2296-64DC-534F-424F04982358}</Project>
-      <Name>Unity.2D.PixelPerfect.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Addressables.Player.csproj">
       <Project>{09D21C89-7D2C-6C84-9C38-1C3BBC6A7CE3}</Project>
       <Name>Unity.Addressables.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.Player.csproj">
-      <Project>{00B4A2AF-063B-4093-C6B7-E2D8485CC827}</Project>
-      <Name>Fungus.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="FungusExamples.Player.csproj">
-      <Project>{A923DC44-A3DE-A321-81A7-F1422675C90D}</Project>
-      <Name>FungusExamples.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{023F67A7-ACA2-212D-10E8-55FE9A24C469}</Project>
-      <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.IK.Runtime.Player.csproj">
-      <Project>{CE51DCE2-BE53-D0DE-D261-DA09C78F4845}</Project>
-      <Name>Unity.2D.IK.Runtime.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.TextMeshPro.Player.csproj">
-      <Project>{DD581EC0-45CF-DA1A-4893-CCAAE0C82E32}</Project>
-      <Name>UniTask.TextMeshPro.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Addressables.Player.csproj">
-      <Project>{7CC8AD57-DC7E-FBDA-BA97-339FDCA5590B}</Project>
-      <Name>UniTask.Addressables.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.Player.csproj">
-      <Project>{1543780C-55BF-E5C4-9D81-1A4E6329B5A3}</Project>
-      <Name>Unity.2D.Tilemap.Extras.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
       <Project>{FF86A88B-5EC0-85D8-3A02-4AE118348951}</Project>
@@ -989,17 +1212,13 @@
       <Project>{0AC546BE-0E8A-A054-A39F-3330F57C8B4A}</Project>
       <Name>Unity.ResourceManager.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UniTask.DOTween.Player.csproj">
-      <Project>{D3722D05-DA98-375D-FA1F-ED8FB73A62B9}</Project>
-      <Name>UniTask.DOTween.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{7FFD8CA3-B5C4-0110-6070-C73EE2E63F2A}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UniTask.Linq.Player.csproj">
-      <Project>{F905F2C9-B10D-773F-F8AC-789DECD150A8}</Project>
-      <Name>UniTask.Linq.Player</Name>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{023F67A7-ACA2-212D-10E8-55FE9A24C469}</Project>
+      <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
       <Project>{98CCA147-BD7E-C647-85F2-9F81F801D813}</Project>
@@ -1009,45 +1228,53 @@
       <Project>{E3F66AB4-F93C-BB74-7835-45D2B4D1DE7C}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Player.csproj">
-      <Project>{83B817DD-C4C4-6B2B-4671-85342A382DBA}</Project>
-      <Name>Unity.Mathematics.Player</Name>
+    <ProjectReference Include="UnityWebSocket.Runtime.Player.csproj">
+      <Project>{4C392C8D-D407-970A-E1C1-DACD366B4C38}</Project>
+      <Name>UnityWebSocket.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
       <Project>{881B0D10-A657-7697-8EC8-F90D06E90CD0}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Player.csproj">
-      <Project>{394F63EF-CC87-9170-259D-1242691F2E40}</Project>
-      <Name>Unity.Burst.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
       <Project>{6D118746-F408-0F81-0456-0D95B08EBD69}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Animation.Runtime.Player.csproj">
-      <Project>{B68119D8-7EE4-80CC-8701-30535C09089C}</Project>
-      <Name>Unity.2D.Animation.Runtime.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Runtime.Player.csproj">
-      <Project>{8551DD96-C987-7F19-8B91-5C63024EDFC6}</Project>
-      <Name>Unity.2D.Common.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ScriptableBuildPipeline.Player.csproj">
       <Project>{9B92F5C3-8AFF-1817-5D11-EFE6B1A5B2E6}</Project>
       <Name>Unity.ScriptableBuildPipeline.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
+      <Project>{8EE6E4F3-7AEF-952B-32E8-26F71C7DC5EE}</Project>
+      <Name>Unity.VisualScripting.State.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="FungusExamples.Player.csproj">
+      <Project>{A923DC44-A3DE-A321-81A7-F1422675C90D}</Project>
+      <Name>FungusExamples.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.Player.csproj">
+      <Project>{00B4A2AF-063B-4093-C6B7-E2D8485CC827}</Project>
+      <Name>Fungus.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.Player.csproj">
+      <Project>{7CC8AD57-DC7E-FBDA-BA97-339FDCA5590B}</Project>
+      <Name>UniTask.Addressables.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="UniTask.Player.csproj">
       <Project>{C938E9B0-4E69-109C-CB75-6C9FAD65AC60}</Project>
       <Name>UniTask.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.Player.csproj">
-      <Project>{846E857C-9DC9-7F87-296A-0E933DEE9184}</Project>
-      <Name>Unity.2D.SpriteShape.Runtime.Player</Name>
+    <ProjectReference Include="UniTask.DOTween.Player.csproj">
+      <Project>{D3722D05-DA98-375D-FA1F-ED8FB73A62B9}</Project>
+      <Name>UniTask.DOTween.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{8EE6E4F3-7AEF-952B-32E8-26F71C7DC5EE}</Project>
-      <Name>Unity.VisualScripting.State.Player</Name>
+    <ProjectReference Include="UniTask.TextMeshPro.Player.csproj">
+      <Project>{DD581EC0-45CF-DA1A-4893-CCAAE0C82E32}</Project>
+      <Name>UniTask.TextMeshPro.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.Player.csproj">
+      <Project>{F905F2C9-B10D-773F-F8AC-789DECD150A8}</Project>
+      <Name>UniTask.Linq.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

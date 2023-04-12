@@ -10,13 +10,13 @@ namespace HiplayGame
 
         public override void Initialize()
         {
-            _container.Bind<BussinessInitializeLoginSceneUI>().ToSelf();
+            _container.Bind<BusinessInitializeLoginSceneUI>().ToSelf();
         }
 
         public async override UniTask OnEnter()
         {
             await base.OnEnter();
-            var logic = _container.Resolve<BussinessInitializeLoginSceneUI>();
+            var logic = _container.Resolve<BusinessInitializeLoginSceneUI>();
             await logic.Run();
         }
     }
