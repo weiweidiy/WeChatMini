@@ -1,4 +1,5 @@
 using Cysharp.Threading.Tasks;
+using System;
 using UnityEngine;
 using UnityEngine.ResourceManagement.ResourceProviders;
 
@@ -44,7 +45,8 @@ namespace HiplayGame
         /// <param name="parent"></param>
         /// <param name="instantiateInWorldSpace"></param>
         /// <returns></returns>
-        UniTask<GameObject> InstantiateAsync(string resourceName, Transform parent = null, bool instantiateInWorldSpace = false);
+        UniTask<GameObject> InstantiateAsync(string resourceName, Transform parent = null, bool instantiateInWorldSpace = false, Action<GameObject> complete = null);
+        UniTask<GameObject> InstantiateAsync(string resourceName, Vector3 position, Quaternion quaternion, Transform parent = null, Action<GameObject> complete = null);
 
         /// <summary>
         /// 同步实例化游戏对象

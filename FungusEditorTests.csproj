@@ -60,9 +60,9 @@
     <Compile Include="Assets\Tests\Editor\TestUtils.cs" />
     <Compile Include="Assets\Tests\Editor\FungusPrioritySignalsTest.cs" />
     <Compile Include="Assets\Tests\Editor\TextTagParserTests.cs" />
+    <Compile Include="Assets\Tests\Editor\FungusCollectionTests.cs" />
     <Compile Include="Assets\Tests\Editor\FungusTextVariationSelectionTests.cs" />
     <Compile Include="Assets\Tests\Editor\GenerateEverythingMenuItem.cs" />
-    <Compile Include="Assets\Tests\Editor\FungusCollectionTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tests\Editor\FungusEditorTests.asmdef" />

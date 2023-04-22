@@ -56,441 +56,367 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\IObserver.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ReflectionCache.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\ContextRoot\SceneInjector.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Concurrency.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\WaveManager.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ToArray.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\01_HelloWorld\Scripts\HelloWorld.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommanderUtils.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Single.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateTrigger.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\ParserToken.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntry.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notification.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\MicroCoroutine.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ThrottleFirst.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\NormalEnhancedScrollerDelegateV2.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXLongCallBackHandler.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Data\JsonSaver.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Health\HealthChangeInfo.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\05_Commander\Scripts\Commands\RotateGameObjectCommand.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\IgnoreElements.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSubmitTrigger.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Projectiles\LinearProjectile.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Json.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IQuitable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\01_HelloWorld\Scripts\GameRoot.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\CancellationToken.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\UniRx\Tests\UniRxTests.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\UnityBindingConditionFactory.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\BindingsSetup\BindingPriority.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Json.IJsonHelper.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Tests\AsyncUtilTests.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedCellViewV2.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXGridAd.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\SubjectExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\Scene\ScenesManager.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Helpers\Ballistics.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Sample.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Return.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\DispatcherOptions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\EnhancedScroller.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\ExitActionBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\LifetimeDisposableExtensions.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\TakeWhile.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\PairWise.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableBeginDragTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Repeat.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\NestScrollerDemo\NestScrollerDemo.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMTilesTransition.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\MultipleBindingConditionFactory.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\InspectableReactiveProperty.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\InputScheme.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMPostRenderTransition.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ImmutableList.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Tasks\TaskObservableExtensions.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Placement\TowerPlacementGrid.cs" />
     <Compile Include="Assets\Scripts\Main\Bindings\Login\LoginCommandsBindings.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTransformChangedTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notifiers\MessageBroker.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UnityEventExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\AsyncOperationExtensions.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDropTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\ILateUpdatable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\RoutingStrategy.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Container\IInjectionContainer.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IFocusable.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Awaiter.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IUpdatable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\BatchFrame.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Aggregate.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\AotSafeExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedCellViewAdvanceV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\IProgress.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCancelTrigger.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXEnv.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\InternalActionBehaviour.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Health\Targetable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Paging.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Types\CommandReference.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingDelegates.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\ConnectableObservable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\example\TelephoneCallExample\Program.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMBlindsTransition.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\Injector.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\RepeatFileProcessor.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Extensions\GameObjectExtensions.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\TakeUntil.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXGameClubButton.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ObservableMonoBehaviour.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Health\DamageableListener.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMCartoonTransition.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Marshal.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\ContextRoot\IContextRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Cast.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\Cloud.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\WhenAll.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Range.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\TowerPlacementGhost.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Audio\RandomAudioSource.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\KeyboardMouseInput.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\PointerInfo.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ReflectedClass.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedCellHandleV2.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Camera\CameraRig.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedUnitDataBuilderV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Joins.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Affectors\PassiveAffector.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityDumper.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\ThreadPoolScheduler.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Behaviours\Rotator.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXInterstitialAd.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\TriggerDetails.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\PinchInfo.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Audio\HealthChangeSound.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Projectiles\WobblingHomingProjectile.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\SimpleDemo\SimpleDemo.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\MonoInjectionExtension.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\BindingsSetup\BindingsSetupExtension.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\MonoInjectionExtension.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMouseTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\Inject.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\TimeInterval.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXCustomAd.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMCinemaTransition.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\SampleFrame.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Amb.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\ComplexEnhancedScrollerDelegateV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXModels.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Binding.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\Test\TestTower.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollision2DTrigger.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXFileCacheClean.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\TimedLevelIntro.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Compression.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\PostConstruct.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\FrameInterval.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\PlayerPrefs.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Util\MethodUtils.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEventTrigger.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXAdBaseStyle.cs" />
     <Compile Include="Assets\Scripts\Main\Logic\SceneLogin.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample02_ObservableTriggers.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\ReentryTriggerBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ObserveExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UnityEqualityComparer.cs" />
     <Compile Include="Assets\Scripts\Main\Mono\CommonButton.cs" />
     <Compile Include="Assets\Scripts\Main\Logic\SceneGame.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Scan.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableStateMachineTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\OperatorObserverBase.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\UnityBindingExtension.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXBase.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityWinRTBridge\Thread.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ZipLatest.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\GameNetwork.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\Tuple.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\FootView.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ReactiveProperty.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXAdCustomStyle.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Empty.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\BehaviorSubject.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonMapper.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\Extensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\BindingComponents.cs" />
-    <Compile Include="Assets\Scripts\Main\Logic\BusinessInitializeGameSceneUI.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\DelayFrameSubscription.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\BindingComponents.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDestroyTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\MethodInfo.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\CommandManager.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notifiers\ScheduledNotifier.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\ITransitionProvider.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ScenePlaybackDetector.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerBase.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\PersistentSingleton.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\BuildSidebar.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\Awaiters.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileFilter.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Exceptions\BinderException.cs" />
-    <Compile Include="Assets\Scripts\Framework\Map\Grid\IDataGridGenerater.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\GroundView.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\CommandBuildTower.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\RepeatUntil.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXTouchInputOverride.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Behaviours\NamespaceCommandBehaviour.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Path.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\TouchInput.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Projectiles\HitscanAttack.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample12_ReactiveProperty.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Behaviours\NamespaceCommandBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\IReflectionCache.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\05_Commander\Scripts\GameRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ReactiveCommand.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedScrollerViewAdvanceV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFrame.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonMockWrapper.cs" />
-    <Compile Include="Assets\Scripts\Main\Bindings\Game\GameCommandsBindings.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Behaviours\CubeRotator.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXCanvas.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\MultipleAssignmentDisposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\UnhandledTriggerAction.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\ContextRoot\ContextRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\UnityBindingContainerExtension.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Throttle.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Command.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\Unit.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\TowerDefenseMainMenu.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Audio\WeightedAudioList.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Behaviours\CommandDispatch.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\FromEvent.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample06_ConvertToCoroutine.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\SubscribeOnMainThread.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXFileSystemManager.cs" />
     <Compile Include="Assets\Scripts\Main\Logic\DefaultSceneProvider.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\WhereSelect.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Timer.cs" />
-    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMFadeTransition.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\03_UsingConditions\Scripts\GameRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Types\IFactory.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableInitializePotentialDragTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Concat.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UnityUIComponentExtensions.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Extensions\IListExtensions.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Health\DamageCollider.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Graph\Decision.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\TriggerWithParameters.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMNinjaTransition.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Encryption.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\MainThreadDispatcher.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Util\CallDelegates.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ReflectionFactory.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Verifier.Crc32.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\AscynLock.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ReactiveCollection.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Projectiles\BallisticArcHeight.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Data\IDataSaver.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Health\DamageZone.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\RefreshDemo\RefreshDemo.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\FrameTimeInterval.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBindingFactory.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Finally.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMTransition.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\Pool.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Affectors\SlowAffector.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableScrollTrigger.cs" />
     <Compile Include="Assets\Scripts\Main\Logic\BusinessInitializeLoginSceneUI.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\DistinctUntilChanged.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\FrameInterval.cs" />
-    <Compile Include="Assets\Scripts\Framework\Config\IConfigManager.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Compression.ICompressionHelper.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\StateConfigurationResources.Designer.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\SceneTower.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Creation.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\WithLatestFrom.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Bindings\PrefabBindings.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\TowerLaunchers\Launcher.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableFixedUpdateTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerEnterTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\RefCountDisposable.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonWriter.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\YieldInstructionCache.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Behaviours\TimedCommandDispatch.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Effects\PoolableEffect.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Wait.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerDownTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\05_Commander\Scripts\Commands\SpawnGameObjectCommand.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\UnityDebugSink.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\TimedWave.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\InjectionMember.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\LazyTask.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerExitTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedUnitViewV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\Scheduler.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXGameRecorder.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSelectTrigger.cs" />
-    <Compile Include="Assets\Scripts\Main\Logic\MapsManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollisionTrigger.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\TowerManager.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\InputSchemeSwitcher.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\DeactivateActionBehaviour.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Spawning\RandomHitObjectSpawner.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\RefCount.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\ICommandPool.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample03_GameObjectAsObservable.cs" />
-    <Compile Include="Assets\Scripts\Framework\Scene\IScenesManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Asynchronous\WebRequestExtensions.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\UserManager.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\DelayFrame.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\ISubject.cs" />
-    <Compile Include="Assets\Scripts\Main\Commands\Game\StartupGameCommand.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\FromCoroutine.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\RadiusVisualizerController.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\UI\IMainMenuPage.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\Tween.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Events.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ResizeDemo\ResizeDemo.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Commands\SpawnObjectsCommand.cs" />
-    <Compile Include="Assets\Scripts\Framework\Base\IAssetLoader.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\InternalTriggerBehaviour.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Agents\AgentSlower.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Placement\SingleTowerPlacementArea.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample10_MainThreadDispatcher.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.ErrorHandling.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\EventPattern.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\08_UnityEvents\Scripts\GameRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\Scene\IScene.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Distinct.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Health\IAlignmentProvider.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Data\TowerLevelData.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBinder.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileUtils.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\PresenterBase.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedNestCellHandleV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\Logger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\TimeoutFrame.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Delay.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ObservableWWW.cs" />
-    <Compile Include="Assets\Scripts\Main\Bindings\Common\CommonClassBindings.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\UI\Modal.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample11_Logger.cs" />
     <Compile Include="Assets\Scripts\Main\Bindings\Login\TransformBindings.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\TouchInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\example\OnOffExample\Program.cs" />
     <Compile Include="Assets\Scripts\Main\Commands\Common\SwitchSceneCommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\Disposable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\DelaySubscription.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\StartWith.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\Disposable.cs" />
-    <Compile Include="Assets\Scripts\Framework\Map\Grid\DataGrid.cs" />
-    <Compile Include="Assets\Scripts\Framework\Map\Grid\Grid.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\SmallList.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Graph\UmlDotGraphStyle.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXInnerAudioContext.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\TimeInterval.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\MultiCellsDemo\MultiCellDemo.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\IMessageReciever.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\AwaitExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ContinueWith.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\MainThreadScheduler.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\Event.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\IJsonWrapper.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Bindings\DataBindings.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ParameterInfo.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\ResolutionMode.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Timestamp.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableLogger.cs" />
-    <Compile Include="Assets\Scripts\Test\SetImg.cs" />
-    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMPlainTransition.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\IScheduler.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\MeshCreator\AreaMeshCreator.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SkipUntil.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Synchronize.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\InjectFromContainer.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\SerializableInterface.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Economy\Currency.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXLaunchProgress.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonData.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\DouyinMessageHandle.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\example\BugTrackerExample\Program.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\StableCompositeDisposable.cs" />
-    <Compile Include="Assets\Scripts\Test\TestAdic.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Random.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Timeout.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\CancellationDisposable.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Projectiles\BallisticFireMode.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Spawning\HitObjectSpawner.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXProfileStatsScript.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\TypedMonoBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Aggregate.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Reflection\FixedTransitionInfo.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\UI\AnimatingMainMenuPage.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\Singleton.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\SingleAssignmentDisposable.cs" />
+    <Compile Include="Assets\TeamRank.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ToObservable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\IObservable.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCanvasGroupChangedTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\ReflectionExtensions.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Verifier.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\CoroutineAsyncBridge.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\StateMachine.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Do.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXRewardedVideoAd.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXShortAudio.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Assembly.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Container\InjectionContainer.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\Construct.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\UnityTypeBindings.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableVisibleTrigger.cs" />
+    <Compile Include="Assets\Scripts\Main\Mono\ReadyBar.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\UI\UIManager.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\InspectorDisplayDrawer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\TransitionGuard.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\AsObservable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedDataV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Exceptions\BindingException.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Zip.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\02_BindingGameObjects\Scripts\GameRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedDetailCellHandleFactoryV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Reflection\DynamicTransitionInfo.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Health\HitInfo.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Camera\CameraInitialState.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\FogModel.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedCellViewFactoryV2.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Bindings\FactoryBindings.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Agents\AttackingAgent.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\TaskExtensions.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notifiers\BooleanNotifier.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\InjectionContext.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableRectTransformTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBindingCreator.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notifiers\CountNotifier.cs" />
     <Compile Include="Assets\WX-WASM-SDK\interface.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\BindingsSetup\IBindingsSetup.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Timestamped.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMNewspaperTransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Reflection\IgnoredTransitionInfo.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\PostProcessingModel.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WX.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\EventCallerContainerExtension.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\RowCellsDemo\RowCellsDemo.cs" />
     <Compile Include="Assets\Scripts\Main\Context\LoginRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ContentView.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Projectiles\SplashDamager.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\ImmediateScheduler.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Concatenate.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\ActivateActionBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\SingleBindingConditionFactory.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Skip.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\OperatorObservableBase.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ObserveOn.cs" />
-    <Compile Include="Assets\Scripts\AddressableDownLoadMgr.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\StateRepresentation.Async.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\MouseScroll.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Graph\GraphStyleBase.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SubscribeOn.cs" />
-    <Compile Include="Assets\Scripts\Main\Context\GameRoot.cs" />
-    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Text.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\Exceptions\CommandException.cs" />
     <Compile Include="Assets\Scripts\Main\Logic\DataGridGenerater.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Exceptions\InjectorException.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\GroupBy.cs" />
     <Compile Include="Assets\Scripts\Framework\Base\AddressableLoader.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Observable.Unity.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\08_UnityEvents\Scripts\EventReceiver.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UnityWebSocket\Demo\UnityWebSocketDemo.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Merge.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\RepeatSafe.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingInstance.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\LevelIntro.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Util\TypeUtils.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\ICommand.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDeselectTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\Binder.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Health\DamageTrigger.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\TowerDefenseInputSchemeSwitcher.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedDetailCellHandleV2.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXSDKManagerHandler.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\IOptimizedObservable.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UnityGraphicExtensions.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\EnhancedScrollerCellView.cs" />
-    <Compile Include="Assets\Scripts\Main\Bindings\Common\CommonCommandsBindings.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SelectMany.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerClickTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Dematerialize.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingFactory.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateSelectedTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\ReadTextFileProcessor.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXBannerAd.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Data\FileSaver.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Transition.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\UniRx\UnirxAwaitExtensions.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\HandlerWrapper.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\UI\SimpleMainMenuPage.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Converter.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\JumpDemo\JumpDemo.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Start.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\TakeLast.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample09_EventHandling.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Select.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Tower.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\SmartTimersManager\ScriptExamples\RedLightFlicker.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\NestEnhancedScrollerDelegateV2.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonException.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Defer.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ComplexDemo\ComplexDemo.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.FromAsync.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\Subject.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UniRxSynchronizationContext.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\TriggerBehaviourResult.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\Lexer.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedUnitViewFactoryV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\ICommandDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\StateRepresentation.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXUploadFile.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\CellView.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Materialize.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Spawning\WeightedObject.cs" />
     <Compile Include="Assets\Scripts\Main\Context\LauncherRoot.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\TeamManager.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXModel.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXCamera.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\DefaultTransitionProvider.cs" />
     <Compile Include="Assets\Scripts\Main\Modules\StaticReflectionCache.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedUnitViewV2.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXBaseAd.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\HeadView.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Graph\UmlDotGraph.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample08_DetectDoubleClick.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\PriorityQueue.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXRecorder.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\DictionaryDisposable.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTrigger2DTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample05_ConvertFromCoroutine.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXUserInfoButton.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Audio\WeightedAudioClip.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\CurrencyUI.cs" />
     <Compile Include="Assets\WX-WASM-SDK\WXVideo.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\LevelState.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\TowerInfoDisplay.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Reflection\TriggerInfo.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ForEachAsync.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ToList.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEnableTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ListObserver.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Time.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXOpenDataContext.cs" />
-    <Compile Include="Assets\Scripts\Main\Logic\LocalDataManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommanderContainerExtension.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Throw.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\SerialDisposable.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Game\LevelItem.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommandDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Throw.cs" />
+    <Compile Include="Assets\Scripts\Main\Mono\HUDComponent.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\OfType.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\IEnhancedScrollerDelegate.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Pair.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableAnimatorTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\example\JsonExample\Member.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Conversions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\First.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\BooleanDisposable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\ICancelable.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableLateUpdateTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\First.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntryExtensions.cs" />
     <Compile Include="Assets\Scripts\Main\Commands\Login\StartupLoginCommand.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMPixelateTransition.cs" />
@@ -498,124 +424,545 @@
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEndDragTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\04_Prefabs\Scripts\GameRoot.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\IReflectionFactory.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Never.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Container\IContainerExtension.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXUDPSocketManager.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Catch.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedUnitViewPlaceHolderFactoryV2.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedCellHandleFactoryV2.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityWinRTBridge\ThreadPoolScheduler_UnityWinRT.cs" />
     <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMTransitionUtils.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Where.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ReactiveDictionary.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SelectWhere.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.Component.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\CurrentThreadScheduler.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\04_Prefabs\Scripts\CubeRotator.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ComplexCellView.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\TowerLaunchers\BallisticLauncher.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\TowerLaunchers\HomingLauncher.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\PointerActionInfo.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Projectiles\HomingLinearProjectile.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
     <Compile Include="Assets\Scripts\Framework\UI\IUIManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Blocking.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample13_ToDoApp.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\ReplaySubject.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingInfo.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\TowerLevel.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Switch.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedScrollerDelegateV2.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\ReplaceTextFileProcessor.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\CombineLatest.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\InjectionUtil.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\WXCallBackHandler.cs" />
-    <Compile Include="Assets\Scripts\Framework\Transition\ITransition.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\CompositeDisposable.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBindingConditionFactory.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SkipWhile.cs" />
     <Compile Include="Assets\WX-WASM-SDK\HideLoadingPage.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableParticleTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample01_ObservableWWW.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\AsSingleUnitObservable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Factories\CubeFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\TriggerBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\Utility\Utility.Text.ITextHelper.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ThreadSafeQueueWorker.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerUpTrigger.cs" />
-    <Compile Include="Assets\Scripts\Framework\PlaceHolderFactory.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
     <Compile Include="Assets\Scripts\Test\SetFont.cs" />
     <Compile Include="Assets\Scripts\Main\Define\GameDefine.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedScrollRectExV2.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFirstFrame.cs" />
-    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMTetrisTransition.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDragTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\AsyncSubject.cs" />
     <Compile Include="Assets\Scripts\Framework\Scene\ISceneProvider.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ReflectionAccessor.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Data\CubeRotationSpeed.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Placement\IPlacementArea.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\ITowerRadiusProvider.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample04_ConvertFromUnityCallback.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileProcessor.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\WaveUI.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample07_OrchestratIEnumerator.cs" />
-    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMTransitionState.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Create.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Reflection\TransitionInfo.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observer.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SynchronizedObserver.cs" />
     <Compile Include="Assets\Scripts\Framework\Scene\BaseScene.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\EventCallerBehaviour.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\LitJson\Netstandard15Polyfill.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\StateMachineResources.Designer.cs" />
     <Compile Include="Assets\Scripts\Main\Mono\DataGridDebugger.cs" />
     <Compile Include="Assets\Scripts\Framework\Config\ILocalDataManager.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\ExitButton.cs" />
     <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonReader.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Buffer.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\EventSystem\EventManager.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Toolkit\ObjectPool.cs" />
     <Compile Include="Assets\Scripts\Framework\Bussiness\BaseBussiness.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\02_BindingGameObjects\Scripts\GameObjectRotator.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Behaviours\Cube.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\InputController.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\InjectDelegates.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommanderExtension.cs" />
-    <Compile Include="Assets\Scripts\Main\Logic\BusinessInitializeGame.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Graph\SuperState.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\StateInjection\StateInjectionExtension.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\AsUnitObservable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\AcessorInfo.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ScheduledItem.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\03_UsingConditions\Scripts\GameObjectRotator.cs" />
     <Compile Include="Assets\Scripts\Main\Bindings\Game\GameClassBindings.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMoveTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedNestCellHandleFactoryV2.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\DisposableExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\ScheduledDisposable.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableDebugExtensions.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Health\DamageableBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\EventCaller\IFixedUpdatable.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\WaitForUpdate.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Take.cs" />
     <Compile Include="Assets\Scripts\Framework\Bussiness\IGameBusiness.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\PrefabBinding.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\IInjector.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\DefaultIfEmpty.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Last.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\DitheringModel.cs" />
     <Compile Include="Assets\Scripts\Framework\Exception\GameFrameworkException.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\State.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\StateInterface.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\Example\ExampleCharacterWander.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\MachineBehaviour.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\Example\ExampleCharacter.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\MachineState.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\MachineInterface.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\Example\ExampleCharacterIdle.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\UrlOpen.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\IObserver.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ReflectionCache.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\ContextRoot\SceneInjector.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Concurrency.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Single.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\IgnoredTriggerBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notification.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Projectiles\BallisticProjectile.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Nodes\FixedNodeSelector.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\MicroCoroutine.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\NormalEnhancedScrollerDelegateV2.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Health\SimpleAlignment.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXLongCallBackHandler.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\LevelManager.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Agents\AgentEffect.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\IgnoreElements.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\BindingsSetup\BindingPriority.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\TimedBehaviour.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Projectiles\ContactDestroyer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Tests\AsyncUtilTests.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Affectors\AttackAffector.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXGridAd.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs" />
+    <Compile Include="Assets\CountDown.cs" />
+    <Compile Include="Assets\Scripts\Framework\Scene\ScenesManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Reflection\StateMachineInfo.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\Rotator.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\PlayerBaseHealth.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\EnhancedScroller.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\MovingCanvas.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Agents\FlyingAgent.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableBeginDragTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Repeat.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\PlayerHomeBase.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\InspectableReactiveProperty.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Tasks\TaskObservableExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ImmutableList.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTransformChangedTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Notifiers\MessageBroker.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\AsyncOperationExtensions.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Awaiter.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\AotSafeExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedCellViewAdvanceV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\System\IProgress.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXEnv.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\TowerLaunchers\SuperTowerLauncher.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\ConnectableObservable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingDelegates.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\RepeatFileProcessor.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ObservableMonoBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Reflection\InvocationInfo.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\DebugGameNetwork.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Cast.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\Cloud.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\example\BugTrackerExample\Bug.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\WhenAll.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Range.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\MeshCreator\Triangulator.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Joins.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\IntervalParticleSystemPlayer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\ThreadPoolScheduler.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Audio\HealthChangeSoundSelector.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\StateConfiguration.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\OnTransitionedEvent.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\OptionsMenu.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXInterstitialAd.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Data\EncryptedJsonSaver.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Nodes\NodeSelector.cs" />
+    <Compile Include="Assets\Scripts\Main\Mono\Enemy.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Targetting\Targetter.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\Inject.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Spawning\SingleHitObjectSpawner.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Health\DeathEffect.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\ComplexEnhancedScrollerDelegateV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXModels.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\Timer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Binding.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\Role.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\CameraInputScheme.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\PostConstruct.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\FrameInterval.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\LevelSelectScreen.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Data\IDataStore.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\StateConfiguration.Async.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\PlayerPrefs.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Health\Damager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEventTrigger.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXAdBaseStyle.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample02_ObservableTriggers.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UnityEqualityComparer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\UnityBindingExtension.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXBase.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ZipLatest.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\FootView.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityWinRTBridge\Thread.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\HeroManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ReactiveProperty.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\CommandSpeedUpTower.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\DynamicTriggerBehaviour.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonMapper.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\PlacementTile.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\SmartTimersManager\TimerManager\Timer.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\Extensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Graph\State.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\MethodInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerBase.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\Poolable.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Data\GameDataStoreBase.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Exceptions\BinderException.cs" />
+    <Compile Include="Assets\Scripts\Framework\Map\Grid\IDataGridGenerater.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\GuardCondition.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Path.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ReactiveCommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Mono\EnhancedScrollerViewAdvanceV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFrame.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonMockWrapper.cs" />
+    <Compile Include="Assets\Scripts\Main\Bindings\Game\GameCommandsBindings.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Behaviours\CubeRotator.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\UnityBinding\UnityBindingContainerExtension.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\MultipleAssignmentDisposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Throttle.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXCanvas.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\SmartTimersManager\TimerManager\GUI_TimersList.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Nodes\Node.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\WheelInfo.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Economy\CurrencyChangeInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\SubscribeOnMainThread.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\TowerUI.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\WhereSelect.cs" />
+    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMFadeTransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Types\IFactory.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Affectors\Affector.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Concat.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableInitializePotentialDragTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UnityUIComponentExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Util\CallDelegates.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Cache\ReflectionFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\AscynLock.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\ReactiveCollection.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBindingFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Finally.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\BusinessInitializeGameSceneView.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Input\TowerDefenseKeyboardMouseInput.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\DistinctUntilChanged.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Game\LevelSaveData.cs" />
+    <Compile Include="Assets\Scripts\Framework\Config\IConfigManager.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Placement\TowerPlacementGridManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Bindings\PrefabBindings.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Agents\Data\AgentConfiguration.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\RefCountDisposable.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\VectorHelper.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\YieldInstructionCache.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\Wave.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\05_Commander\Scripts\Commands\SpawnGameObjectCommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\UnityDebugSink.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\LazyTask.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\LevelSelectButton.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedUnitViewV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\Scheduler.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSelectTrigger.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\MapsManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollisionTrigger.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\CommandSummonAttacker.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample03_GameObjectAsObservable.cs" />
+    <Compile Include="Assets\Scripts\Framework\Scene\IScenesManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Asynchronous\WebRequestExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\ISubject.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\ParameterConversion.cs" />
+    <Compile Include="Assets\Scripts\Main\Commands\Game\StartupGameCommand.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\SelfDestroyTimer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\FromCoroutine.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ResizeDemo\ResizeDemo.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\07_Factory\Scripts\Commands\SpawnObjectsCommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\Base\IAssetLoader.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.ErrorHandling.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\EventPattern.cs" />
+    <Compile Include="Assets\Scripts\Framework\Scene\IScene.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\PlayAnimation.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Distinct.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Data\TowerLibrary.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\ParameterConversionResources.Designer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\FileUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Operators\TimeoutFrame.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\Logger.cs" />
+    <Compile Include="Assets\Scripts\Main\Bindings\Common\CommonClassBindings.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\StateRepresentationResources.Designer.cs" />
+    <Compile Include="Assets\Scripts\Framework\Map\Grid\DataGrid.cs" />
+    <Compile Include="Assets\Scripts\Framework\Map\Grid\Grid.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Plugins\SmallList.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\TimeInterval.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\EndGameScreen.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\MultiCellsDemo\MultiCellDemo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ContinueWith.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\StateReference.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\IJsonWrapper.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\ResolutionMode.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\example\JsonExample\Program.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Spawning\WeightedObjectList.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Timestamp.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableLogger.cs" />
+    <Compile Include="Assets\Scripts\Test\SetImg.cs" />
+    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMPlainTransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\IScheduler.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\UI\BasicAnimatingMainMenuPage.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Synchronize.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\MonoInjection\InjectFromContainer.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Nodes\RandomNodeSelector.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonData.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\EnemyManager.cs" />
+    <Compile Include="Assets\Scripts\Test\TestAdic.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\CancellationDisposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Random.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Timeout.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\TypedMonoBehaviour.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Effects\MobileParticleSelector.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\MouseCursorInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\CoroutineAsyncBridge.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Assembly.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Attributes\Construct.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\UnityTypeBindings.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Agents\Agent.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableVisibleTrigger.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Effects\ProjectileEffect.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\TowerSpawnButton.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Exceptions\BindingException.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Economy\LootDrop.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Zip.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\StateMachine.Async.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\02_BindingGameObjects\Scripts\GameRoot.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedDetailCellHandleFactoryV2.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\InjectionContext.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\BindingsSetup\IBindingsSetup.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Timestamped.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Health\HealthVisualizer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ContentView.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Concatenate.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\OperatorObservableBase.cs" />
+    <Compile Include="Assets\Scripts\AddressableDownLoadMgr.cs" />
+    <Compile Include="Assets\Scripts\Main\Context\GameRoot.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Placement\TowerFitStatus.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Utility.Text.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\SmartTimersManager\ScriptExamples\BlueLightFlicker.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\GroupBy.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Observable.Unity.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Projectiles\IProjectile.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\08_UnityEvents\Scripts\EventReceiver.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingInstance.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\ICommand.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDeselectTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\example\TelephoneCallExample\PhoneCall.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Game\GameDataStore.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\Binder.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\TowerLaunchers\HitscanLauncher.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Graph\Transition.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXSDKManagerHandler.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\UI\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UnityGraphicExtensions.cs" />
+    <Compile Include="Assets\Scripts\Main\Bindings\Common\CommonCommandsBindings.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\RepeatingTimer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SelectMany.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Hiplay\IOSystem\ReadTextFileProcessor.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\PoolManager.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXBannerAd.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\JumpDemo\JumpDemo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Start.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\TakeLast.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample09_EventHandling.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Select.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ComplexDemo\ComplexDemo.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\JsonException.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Defer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\Subject.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\UniRxSynchronizationContext.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Reflection\ActionInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Reflection\StateInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedUnitViewFactoryV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\ICommandDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Materialize.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXCamera.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\Interfaces\IEnhancedUnitViewV2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\HeadView.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\PriorityQueue.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTrigger2DTrigger.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\IntVector2.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample05_ConvertFromCoroutine.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXUserInfoButton.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\ILauncher.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Input\TowerDefenseTouchInput.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\Graph\StateGraph.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Time.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\ToList.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEnableTrigger.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXOpenDataContext.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\LocalDataManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommanderContainerExtension.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\BuildInfoUI.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\SerialDisposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Pair.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\BooleanDisposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableLateUpdateTrigger.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Economy\CurrencyGainer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\TransitioningTriggerBehaviour.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Audio\HealthChangeAudioSource.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Affectors\CurrencyAffector.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Cameras\PostProcessorConfigurationSelector.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Never.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXUDPSocketManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityWinRTBridge\ThreadPoolScheduler_UnityWinRT.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\TaskResult.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SelectWhere.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Data\GameManagerBase.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\04_Prefabs\Scripts\CubeRotator.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Schedulers\CurrentThreadScheduler.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\Demos\ComplexCellView.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Agents\HomeBaseAttacker.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\HexPoint.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Observable.Blocking.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample13_ToDoApp.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Spawning\HitObject.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Subjects\ReplaySubject.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\BindingInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\EnhanceScorllerAdvance\EnhancedAdvance\EnhancedScrollerDelegateV2.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\WXCallBackHandler.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Game\LevelList.cs" />
+    <Compile Include="Assets\Scripts\Framework\Transition\ITransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Binding\IBindingConditionFactory.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Examples\Sample01_ObservableWWW.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\Scripts\Framework\PlaceHolderFactory.cs" />
+    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\Pro\SMTetrisTransition.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDragTrigger.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Health\Damageable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\InternalUtil\ReflectionAccessor.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\06_BindingsSetup\Scripts\Data\CubeRotationSpeed.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\StateMachine\src\Stateless\EntryActionBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Framework\Transition\Scripts\SMTransitionState.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\SynchronizedObserver.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\MouseButtonInfo.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\LitJson\Netstandard15Polyfill.cs" />
+    <Compile Include="Assets\Scripts\Main\Mono\FaceToCamera.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\RoleManager.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\GameUI.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Buffer.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\SpawnInstruction.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\Hero.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Examples\02_BindingGameObjects\Scripts\GameObjectRotator.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\ScorePanel.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Extensions\Commander\CommanderExtension.cs" />
+    <Compile Include="Assets\Scripts\Main\Logic\BusinessInitializeGame.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\AsUnitObservable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\SmartTimersManager\TimerManager\TimersManager.cs" />
+    <Compile Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMoveTrigger.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableDebugExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Disposables\ScheduledDisposable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\AsyncAwaitUtil\Source\WaitForUpdate.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Take.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\Adic\Scripts\Framework\Injection\IInjector.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniRx\Scripts\Operators\Last.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Reporter.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\Rotate.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\upgrading from 1.x to 2.x.txt" />
     <None Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\ChangeLog.txt" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
     <None Include="Assets\Scripts\Framework\3rd\UniRx\ReadMe.txt" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMNewspaperEffect.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
     <None Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\Tutorials\readme.txt" />
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMNinjaEffect.shader" />
     <None Include="Assets\Download\WizardPolyArt\Shader\PolyArtMaskTint.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Download\Art\Fonts\3500.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMCinemaEffect.shader" />
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMTetrisEffect.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
     <None Include="Assets\Scripts\Framework\3rd\Adic\LICENSE.txt" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\Third-Party Notices.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\Fonts\Roboto\LICENSE.txt" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\FXAA.shader" />
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMPixelateEffect.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMTilesEffect.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\Common.cginc" />
     <None Include="Assets\Scripts\Framework\Transition\Shaders\SMCartoonEffect.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\UnityTechnologies\TowerDefenseTemplate\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\Scripts\Framework\3rd\EnhancedScroller v2\readme.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Scripts\Framework\3rd\Adic\CHANGELOG.txt" />
     <None Include="Assets\Download\WizardPolyArt\SRP\HowToTestSRPs.txt" />
-    <None Include="Assets\Scripts\Framework\3rd\ByTheTale\StateMachine\README.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -824,6 +1171,24 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -1196,9 +1561,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.Player.csproj">
+      <Project>{3A9F3DCB-7A7D-D504-6051-8114C0D523E5}</Project>
+      <Name>Assembly-CSharp-firstpass.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.Player.csproj">
+      <Project>{CD344462-C679-2F57-8D00-B6444C80E2B8}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Addressables.Player.csproj">
       <Project>{09D21C89-7D2C-6C84-9C38-1C3BBC6A7CE3}</Project>
       <Name>Unity.Addressables.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.Player.csproj">
+      <Project>{00B4A2AF-063B-4093-C6B7-E2D8485CC827}</Project>
+      <Name>Fungus.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="FungusExamples.Player.csproj">
+      <Project>{A923DC44-A3DE-A321-81A7-F1422675C90D}</Project>
+      <Name>FungusExamples.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
+      <Project>{87D3B30C-CF53-30DC-38F4-F7B75A8D9F3E}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{023F67A7-ACA2-212D-10E8-55FE9A24C469}</Project>
+      <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.TextMeshPro.Player.csproj">
+      <Project>{DD581EC0-45CF-DA1A-4893-CCAAE0C82E32}</Project>
+      <Name>UniTask.TextMeshPro.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
+      <Project>{DE06A636-FB10-014C-C316-345493B41D52}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.Player.csproj">
+      <Project>{7CC8AD57-DC7E-FBDA-BA97-339FDCA5590B}</Project>
+      <Name>UniTask.Addressables.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.Player.csproj">
+      <Project>{5AE6B94E-5197-E085-C139-3AF42B0DD13A}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
       <Project>{FF86A88B-5EC0-85D8-3A02-4AE118348951}</Project>
@@ -1208,17 +1613,25 @@
       <Project>{D2D19C57-D7F8-0CCB-454B-E25A47994427}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
+      <Project>{CC800698-E465-192B-2D3E-B76028216544}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.ResourceManager.Player.csproj">
       <Project>{0AC546BE-0E8A-A054-A39F-3330F57C8B4A}</Project>
       <Name>Unity.ResourceManager.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.Player.csproj">
+      <Project>{D3722D05-DA98-375D-FA1F-ED8FB73A62B9}</Project>
+      <Name>UniTask.DOTween.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{7FFD8CA3-B5C4-0110-6070-C73EE2E63F2A}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{023F67A7-ACA2-212D-10E8-55FE9A24C469}</Project>
-      <Name>UnityEngine.UI.Player</Name>
+    <ProjectReference Include="UniTask.Linq.Player.csproj">
+      <Project>{F905F2C9-B10D-773F-F8AC-789DECD150A8}</Project>
+      <Name>UniTask.Linq.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
       <Project>{98CCA147-BD7E-C647-85F2-9F81F801D813}</Project>
@@ -1232,49 +1645,37 @@
       <Project>{4C392C8D-D407-970A-E1C1-DACD366B4C38}</Project>
       <Name>UnityWebSocket.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Player.csproj">
+      <Project>{83B817DD-C4C4-6B2B-4671-85342A382DBA}</Project>
+      <Name>Unity.Mathematics.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
       <Project>{881B0D10-A657-7697-8EC8-F90D06E90CD0}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Player.csproj">
+      <Project>{394F63EF-CC87-9170-259D-1242691F2E40}</Project>
+      <Name>Unity.Burst.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
       <Project>{6D118746-F408-0F81-0456-0D95B08EBD69}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
+      <Project>{D151B856-CFB1-B3A2-5B94-AF58044DFC53}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.ScriptableBuildPipeline.Player.csproj">
       <Project>{9B92F5C3-8AFF-1817-5D11-EFE6B1A5B2E6}</Project>
       <Name>Unity.ScriptableBuildPipeline.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{8EE6E4F3-7AEF-952B-32E8-26F71C7DC5EE}</Project>
-      <Name>Unity.VisualScripting.State.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="FungusExamples.Player.csproj">
-      <Project>{A923DC44-A3DE-A321-81A7-F1422675C90D}</Project>
-      <Name>FungusExamples.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.Player.csproj">
-      <Project>{00B4A2AF-063B-4093-C6B7-E2D8485CC827}</Project>
-      <Name>Fungus.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Addressables.Player.csproj">
-      <Project>{7CC8AD57-DC7E-FBDA-BA97-339FDCA5590B}</Project>
-      <Name>UniTask.Addressables.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Player.csproj">
       <Project>{C938E9B0-4E69-109C-CB75-6C9FAD65AC60}</Project>
       <Name>UniTask.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UniTask.DOTween.Player.csproj">
-      <Project>{D3722D05-DA98-375D-FA1F-ED8FB73A62B9}</Project>
-      <Name>UniTask.DOTween.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.TextMeshPro.Player.csproj">
-      <Project>{DD581EC0-45CF-DA1A-4893-CCAAE0C82E32}</Project>
-      <Name>UniTask.TextMeshPro.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Linq.Player.csproj">
-      <Project>{F905F2C9-B10D-773F-F8AC-789DECD150A8}</Project>
-      <Name>UniTask.Linq.Player</Name>
+    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
+      <Project>{8EE6E4F3-7AEF-952B-32E8-26F71C7DC5EE}</Project>
+      <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

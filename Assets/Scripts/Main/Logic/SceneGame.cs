@@ -13,7 +13,7 @@ namespace HiplayGame
         public override void Initialize()
         {
             _container.Bind<BusinessInitializeGame>().ToSingleton();
-            _container.Bind<BusinessInitializeGameSceneUI>().ToSingleton();
+            _container.Bind<BusinessInitializeGameSceneView>().ToSingleton();
         }
 
         public async override UniTask OnEnter()
@@ -28,7 +28,7 @@ namespace HiplayGame
             var logic = _container.Resolve<BusinessInitializeGame>();
             await logic.Run();
 
-            var view = _container.Resolve<BusinessInitializeGameSceneUI>();
+            var view = _container.Resolve<BusinessInitializeGameSceneView>();
             await view.Run();
 
 

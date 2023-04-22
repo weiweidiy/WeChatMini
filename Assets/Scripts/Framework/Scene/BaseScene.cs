@@ -1,4 +1,3 @@
-using System;
 using Adic;
 using Adic.Container;
 using Cysharp.Threading.Tasks;
@@ -35,7 +34,9 @@ namespace HiplayGame
             go.AddComponent<RectTransform>();
             var canvas = go.AddComponent<Canvas>();
             canvas.renderMode = RenderMode.ScreenSpaceCamera;
-            canvas.worldCamera = GameObject.FindWithTag("MainCamera")?.GetComponent<Camera>();
+            canvas.worldCamera = GameObject.FindWithTag("UICamera")?.GetComponent<Camera>();
+            int layerMask = 0 << LayerMask.NameToLayer("UI");
+            go.layer = 5;
             var cScaler = go.AddComponent<CanvasScaler>();
             go.AddComponent<GraphicRaycaster>();
             cScaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
@@ -45,15 +46,18 @@ namespace HiplayGame
         }
 
 
-        public async virtual UniTask OnEnter() {
+        public async virtual UniTask OnEnter()
+        {
             //≥ı ºªØ BottomRoot
             _uiManager.BottomRoot = CreateRoot(IUIManager.Root.BottomRoot.ToString());
+
 
             _uiManager.MiddleRoot = CreateRoot(IUIManager.Root.MiddleRoot.ToString());
 
             _uiManager.TopRoot = CreateRoot(IUIManager.Root.TopRoot.ToString());
 
-            await UniTask.DelayFrame(0); }
+            await UniTask.DelayFrame(0);
+        }
 
         public virtual void OnEnterTransitionComplete() { }
 

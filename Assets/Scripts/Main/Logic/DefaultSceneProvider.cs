@@ -1,7 +1,6 @@
 
 using Adic;
 using Adic.Container;
-using UnityEngine;
 
 namespace HiplayGame
 {
@@ -13,19 +12,21 @@ namespace HiplayGame
         [Inject]
         protected void Initialize()
         {
-            this.container.Bind<SceneGame>().ToSingleton();
+            //this.container.Bind<SceneGame>().ToSingleton();
+
             this.container.Bind<SceneLogin>().ToSingleton();
+            this.container.Bind<SceneTower>().ToSingleton();
         }
 
 
         public IScene GetNextScene(string currentSceneName)
         {
-            switch(currentSceneName)
+            switch (currentSceneName)
             {
                 case "Launcher":
                     return container.Resolve<SceneLogin>();
                 case "Login":
-                    return container.Resolve<SceneGame>();
+                    return container.Resolve<SceneTower>();
                 default:
                     return null;
             }
@@ -38,7 +39,7 @@ namespace HiplayGame
                 case "Login":
                     return container.Resolve<SceneLogin>();
                 case "Game":
-                    return container.Resolve<SceneGame>();
+                    return container.Resolve<SceneTower>();
                 default:
                     return null;
             }

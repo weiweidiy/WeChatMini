@@ -57,56 +57,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.Bridge.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\Error.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\EnumerableAsyncExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\DiagnosticsExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\CompilerServices\AsyncUniTaskVoidMethodBuilder.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\RuntimeHelpersAbstraction.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\TriggerEvent.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.Threading.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\TaskPool.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\ArrayPool.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTaskExtensions.Shorthand.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\ContinuationQueue.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\EnumeratorAsyncExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\ArrayUtil.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\ExceptionExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\AsyncLazy.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\PlayerLoopHelper.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\CompilerServices\StateMachineRunner.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\StatePool.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityAsyncExtensions.Jobs.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\CancellationTokenExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\UnityEqualityComparer.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\UnityWebRequestExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\CompilerServices\AsyncUniTaskMethodBuilder.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Channel.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\IUniTaskSource.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Progress.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityAsyncExtensions.uGUI.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\CompilerServices\AsyncMethodBuilderAttribute.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\IUniTaskAsyncEnumerable.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\AsyncUnit.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\_InternalVisibleTo.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Triggers\AsyncTriggerBase.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\WeakDictionary.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\ValueStopwatch.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityAsyncExtensions.AssetBundleRequestAllAssets.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.WaitUntil.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\MoveNextSource.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.WhenAny.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTaskExtensions.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Triggers\AsyncDestroyTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.WhenAny.Generated.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityAsyncExtensions.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\CancellationTokenSourceExtensions.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTaskVoid.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityBindingExtensions.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Triggers\AsyncStartTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTaskScheduler.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\TimeoutController.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.WhenAll.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.Factory.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Triggers\MonoBehaviourMessagesTriggers.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\MinimumQueue.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTaskObservableExtensions.cs" />
@@ -114,19 +88,45 @@
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\TaskTracker.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\CancellationTokenEqualityComparer.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\PooledDelegate.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityAsyncExtensions.MonoBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTaskCompletionSource.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTaskSynchronizationContext.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.Delay.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityAsyncExtensions.AsyncGPUReadback.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\Error.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\DiagnosticsExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\CompilerServices\AsyncUniTaskVoidMethodBuilder.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\TriggerEvent.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.Threading.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\ArrayPool.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\ArrayUtil.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\ExceptionExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\AsyncLazy.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\StatePool.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityAsyncExtensions.Jobs.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\UnityEqualityComparer.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\CompilerServices\AsyncUniTaskMethodBuilder.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\CompilerServices\AsyncMethodBuilderAttribute.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\IUniTaskAsyncEnumerable.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Triggers\AsyncTriggerBase.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\ValueStopwatch.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.WaitUntil.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.WhenAny.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTaskExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityAsyncExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\CancellationTokenSourceExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityBindingExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\TimeoutController.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.WhenAll.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.Factory.cs" />
+    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityAsyncExtensions.MonoBehaviour.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Triggers\AsyncAwakeTrigger.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityWebRequestException.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTaskSynchronizationContext.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.Delay.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\PlayerLoopTimer.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\PlayerLoopRunner.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.Run.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\AsyncReactiveProperty.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UniTask.WhenAll.Generated.cs" />
-    <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\UnityAsyncExtensions.AsyncGPUReadback.cs" />
     <Compile Include="Assets\Scripts\Framework\3rd\UniTask\Runtime\Internal\ArrayPoolUtil.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -394,11 +394,26 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Markdig">
       <HintPath>Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\Markdig.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
@@ -406,23 +421,29 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

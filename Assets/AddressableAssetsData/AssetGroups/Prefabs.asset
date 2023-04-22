@@ -29,6 +29,34 @@ MonoBehaviour:
     m_Address: PolyArtWizardStandardMat
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 4406ac86f13559347b04978283c6945a
+    m_Address: Role
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c0dba931e033498aa3fcfdf50adb263
+    m_Address: MachineGunTower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae6256d5ec26b436fb1b2573af9e93f8
+    m_Address: EnergyPylon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb71db365cb6e4757aa6d7368e5d7967
+    m_Address: EMP
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e8fc0d9d18c8408baa941efc8b49d4b
+    m_Address: LaserTower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b6a68f73243844f2a8484744e5309de
+    m_Address: RocketTower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5ae177a9f1784879b89a3b1f6f4fbea
+    m_Address: SuperTower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 4b7516ebe1d32ec4fb7a52d3ac4d484c, type: 2}
   m_SchemaSet:

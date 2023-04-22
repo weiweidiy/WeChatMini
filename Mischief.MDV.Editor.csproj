@@ -62,44 +62,44 @@
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineAutoLink.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererBlockCode.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownEditor.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\Layout.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\ContentText.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererBlockParagraph.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\IBuilder.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\LayoutBuilder.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\BlockLine.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\Block.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\Context.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownPreferences.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownHistory.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\BlockSpace.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownMenus.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\ContentImage.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineCode.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererBlockHeading.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\BlockContent.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownEditorAsset.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownHandleImages.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownViewer.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererBlockList.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\BlockContainer.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererBlockQuote.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineHtml.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineLink.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineLineBreak.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownHandleNavigate.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownImporter.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownUtils.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererBlockThematicBreak.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineEmphasis.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineHtmlEntity.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\Style.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\StyleConverter.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\mgGif.cs" />
-    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineLiteral.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\IActions.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownAsset.cs" />
     <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererMarkdown.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\Layout.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\ContentText.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\IBuilder.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\LayoutBuilder.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\Block.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\Context.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownPreferences.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\BlockSpace.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\ContentImage.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownViewer.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Layout\BlockContainer.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineHtml.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineLink.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\MarkdownHandleNavigate.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineEmphasis.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineHtmlEntity.cs" />
+    <Compile Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\RendererInlineLiteral.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Mischief.MDV.Editor.asmdef" />
@@ -373,11 +373,26 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:\Unity\2021.3.15f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Markdig">
       <HintPath>Assets\WX-WASM-SDK\UnityMarkdownViewer\Editor\Scripts\Renderer\Markdig.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
@@ -385,23 +400,29 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -797,13 +818,13 @@
       <Project>{01CB81C5-C7D9-D847-50CE-422033419D97}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{CDE5D4F7-291C-D222-8C55-E899938C142B}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{EEA7066A-9A7C-126B-A3DC-1E652B233BDA}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{CDE5D4F7-291C-D222-8C55-E899938C142B}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

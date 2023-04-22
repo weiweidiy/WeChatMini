@@ -83,12 +83,26 @@ namespace HiplayGame
         /// <param name="parent"></param>
         /// <param name="instantiateInWorldSpace"></param>
         /// <returns></returns>
-        public async UniTask<GameObject> InstantiateAsync(string resourceName, Transform parent = null, bool instantiateInWorldSpace = false)
+        public async UniTask<GameObject> InstantiateAsync(string resourceName, Transform parent = null, bool instantiateInWorldSpace = false, Action<GameObject> complete = null)
         {
             var handle = Addressables.InstantiateAsync(resourceName, parent, instantiateInWorldSpace);
             await handle.ToUniTask();
             if (handle.IsDone && handle.Result != null)
             {
+                complete?.Invoke(handle.Result);
+                return handle.Result;
+            }
+
+            throw new Exception($"实例化GameObject{resourceName}异常！");
+        }
+
+        public async UniTask<GameObject> InstantiateAsync(string resourceName, Vector3 position, Quaternion quaternion, Transform parent = null, Action<GameObject> complete = null)
+        {
+            var handle = Addressables.InstantiateAsync(resourceName, position, quaternion, parent);
+            await handle.ToUniTask();
+            if (handle.IsDone && handle.Result != null)
+            {
+                complete?.Invoke(handle.Result);
                 return handle.Result;
             }
 

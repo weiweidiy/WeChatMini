@@ -1,7 +1,8 @@
 using Adic;
-using Adic.Container;
 using Cysharp.Threading.Tasks;
+using DouyinGame;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace HiplayGame
 {
@@ -9,6 +10,15 @@ namespace HiplayGame
     {
         [Inject]
         IUIManager uiManager;
+
+        protected override void Initialize()
+        {
+            base.Initialize();
+
+            _container.Bind<LocalData>().ToSingleton();
+            _container.Bind<IMessageReciever>().ToSingleton<GameNetwork>();
+        }
+
 
         public override async UniTask Run()
         {
@@ -26,8 +36,13 @@ namespace HiplayGame
             //go.transform.position = Vector3.zero;
         }
 
+
+
         private void Component_onClicked()
         {
+            var field = GameObject.Find("Canvas/InputField").transform.GetComponent<InputField>();
+
+            _container.Resolve<LocalData>().roomId = field.text;
             var dispatcher = _container.GetCommandDispatcher();
             dispatcher.Dispatch<SwitchSceneCommand>("Game", "SMFadeTransition");
         }
