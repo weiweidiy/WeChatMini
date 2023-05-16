@@ -32,7 +32,7 @@ namespace EnhancedScrollerAdvance.Demo
 
         public void OnVisibilityChanged()
         {
-            throw new System.NotImplementedException();
+            //throw new System.NotImplementedException();
         }
     }
 

@@ -72,15 +72,17 @@ namespace EnhancedScrollerAdvance
             onSelected?.Invoke(this, new System.EventArgs());
         }
 
+        /// <summary>
+        /// 发送自定义事件
+        /// </summary>
+        /// <param name="eventName"></param>
+        /// <param name="args"></param>
         protected void SendUnitCustomEvent(string eventName, object args)
         {
             onUnitCustomEvent?.Invoke(eventName, args);
         }
 
-        public virtual void OnVisibilityChanged()
-        {
-            //throw new NotImplementedException();
-        }
+        public virtual void OnVisibilityChanged() { }
 
         protected UnityEngine.Object GetBindingComponent(string name)
         {

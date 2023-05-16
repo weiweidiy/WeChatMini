@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,8 +8,8 @@ namespace EnhancedScrollerAdvance
     {
         public NestEnhancedScrollerDelegateV2(EnhancedScrollerViewAdvanceV2 masterScroller, List<EnhancedDataV2> dataList
             , Dictionary<string, IEnhancedUnitViewFactoryV2> detailUnitViewFactories, Dictionary<string, IEnhancedCellViewFactoryV2> masterCellViewFactories
-            , Dictionary<string, IEnhancedCellHandleFactoryV2> handleFactories)
-            : base(masterScroller, dataList, detailUnitViewFactories, masterCellViewFactories, handleFactories)
+            , Dictionary<string, IEnhancedCellHandleFactoryV2> handleFactories, Dictionary<string, Action<string, object>> unitEventDelegates)
+            : base(masterScroller, dataList, detailUnitViewFactories, masterCellViewFactories, handleFactories, unitEventDelegates)
         {
 
         }

@@ -35,6 +35,7 @@ namespace EnhancedScrollerAdvance
     public abstract class EnhancedScrollerDelegateV2 : IEnhancedScrollerDelegate
     {
         public event Action<int, EnhancedDataV2> onSelected;
+        public event Action<string, object> onCustomEvent;
         /// <summary>
         /// 数据列表
         /// </summary>
@@ -126,7 +127,9 @@ namespace EnhancedScrollerAdvance
 
                 scorllerTransform = _scroller.GetComponent<RectTransform>();
 
+
                 Reload(dataList);
+
 
                 _scroller.cellViewVisibilityChanged += OnCellViewVisibilityChanged;
             }
@@ -194,7 +197,7 @@ namespace EnhancedScrollerAdvance
             return cellViewComponent;
         }
 
-        private void OnUnitCustomEvent(string eventName, object args)
+        protected virtual void OnUnitCustomEvent(string eventName, object args)
         {
             if (_unitCustomEventDelegates == null)
                 return;
@@ -208,6 +211,7 @@ namespace EnhancedScrollerAdvance
             {
                 var action = _unitCustomEventDelegates[eventName];
                 action(eventName, args);
+                onCustomEvent?.Invoke(eventName, args);
             }
         }
 

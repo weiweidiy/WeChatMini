@@ -20,7 +20,7 @@ namespace EnhancedScrollerAdvance.Demo
         void Start()
         {
             var dataList = GetDataList();
-            NestEnhancedScrollerDelegateV2 scrollerDelegate = new NestEnhancedScrollerDelegateV2(scroller, dataList, GetUnitViewFactories(), GetCellViewFactories(), GetHandleFactories());
+            NestEnhancedScrollerDelegateV2 scrollerDelegate = new NestEnhancedScrollerDelegateV2(scroller, dataList, GetUnitViewFactories(), GetCellViewFactories(), GetHandleFactories(),null);
             scroller.Delegate = scrollerDelegate;
 
             btnRefresh.onClick.AddListener(() =>

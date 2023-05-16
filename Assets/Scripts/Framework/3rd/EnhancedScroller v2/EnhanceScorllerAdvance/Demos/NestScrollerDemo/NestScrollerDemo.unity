@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -574,6 +575,7 @@ MonoBehaviour:
   cellPrefabs:
   - {fileID: 7966953230000351210, guid: 4c09a4dabf648f745a54a68b987f1a08, type: 3}
   - {fileID: 1951289056081335835, guid: 87ab40b9e480423488de7f484b9ae8c0, type: 3}
+  isCellDrivenSize: 0
 --- !u!114 &1529625394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -831,7 +833,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 247
+    m_Bits: 183
 --- !u!114 &2016078093
 MonoBehaviour:
   m_ObjectHideFlags: 0

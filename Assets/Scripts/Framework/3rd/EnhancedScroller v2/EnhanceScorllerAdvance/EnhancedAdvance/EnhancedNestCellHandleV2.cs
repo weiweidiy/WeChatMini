@@ -36,9 +36,11 @@ namespace EnhancedScrollerAdvance
             _scroller.Delegate = this;
             _scroller.cellViewVisibilityChanged += OnCellViewVisibilityChanged;
 
+
             var detailUnitViewFactories = new Dictionary<string, IEnhancedUnitViewFactoryV2>();
             detailUnitViewFactories.Add("", unitViewFactory);
             _unitViewFactories = detailUnitViewFactories;
+
 
             if (cellViewFactory != null)
             {
@@ -46,6 +48,14 @@ namespace EnhancedScrollerAdvance
                 _cellView.Initialize(cellRoot);
             }
         }
+
+
+        protected override void OnUnitCustomEvent(string eventName, object args)
+        {
+            onUnitCustomEvent?.Invoke(eventName, args);
+        }
+
+
 
         /// <summary>
         /// 设置cell data
